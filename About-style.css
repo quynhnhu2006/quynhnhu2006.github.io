@@ -171,7 +171,7 @@ body{
 	width: 100%;
 	height: auto;
 	background: url("images/tobG.png") no-repeat;
-	padding: 5px 0;
+	padding: 5px 0 0;
 }
 #tmp_wrap_body #tmp_body #to #nho #top_positon{
 	position: absolute;
@@ -311,7 +311,7 @@ width: 100%;
 height: auto;
 }
 #letter1:hover #rotate{
-	transform: translateY(-230px) rotate(-15deg);
+	transform: translateY(-250px) rotate(-12deg);
 	
 }
 #letter_content #letter2 #L2{

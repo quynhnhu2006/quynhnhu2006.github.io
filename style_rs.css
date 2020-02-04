@@ -20,7 +20,7 @@ img{
     padding: 0;
 }
 #tmp_menu ul {
-    width: 80%;
+    width: 85%;
     margin: 0;
 }
 #tmp_menu ul h1{
@@ -74,6 +74,13 @@ img{
 #tmp_mainvisual	#wrap_slide {
 	width: 70%;
 }
+#tmp_main_text h2 {
+    position: absolute;
+    top: -32px;
+    right: -51px;
+    width: 80%;
+    height: auto;
+}
 #letter{
 	display: none;
 	visibility: hidden;
@@ -82,11 +89,11 @@ img{
     font-size: 11pt;
     display: inline-block;
 }
-.banner_Profile{
+.banner_Profile {
     position: relative;
     width: 45%;
     height: auto;
-    margin: 90px auto 0;
+    margin: 30px auto 10px;
 }
 .wrap_right {
 	position: absolute;
@@ -136,6 +143,28 @@ img{
     width: 50%;
     height: 560px;
     background-color: #540000;
+}
+.list_library {
+    width: 95%;
+    margin: 0 auto;
+}
+.list_library ul {
+    display: block;
+}
+.list_library ul li {
+    width: 100%;
+    height: auto;
+    float: none;
+    border-radius: 10px;
+}
+.list_library ul li a {
+    margin: 0 5px 25px;
+}
+#sns {
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
 }
 #sns .wrap_sns .botton {
     position: absolute;
@@ -217,7 +246,9 @@ img{
     top: 120px;
 }
 .letter_text .txt_style {
-    font-size: 9px;
+    font-size: 11px;
+    line-height: 1.4em;
+    text-align: left;
 }
 #letter_content #letter2 {
     width: 50%;
@@ -237,19 +268,31 @@ img{
     height: auto;
     display: none;
 }
+.txt_style1 {
+    font-size: 17px;
+}
+#letter_cnt2 .letter_text {
+    width: 50%;
+    height: auto;
+    background: url("images/paper01.png") no-repeat;
+        background-size: auto;
+    background-size: 100% auto;
+    padding: 28px 15px 5px;
+}
 #letter1_txt {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: auto;
-    padding: 10px;
-    background-color: #fff;
+    padding: 5px;
+    background:url("images/letter_resp.png") no-repeat;
+	background-size: auto 100%;
 }
 #letter_content #letter1 #rotate {
     position: absolute;
     top: -83px;
-    left: 67px;
+    left: 58px;
     z-index: 6;
     width: 70%;
     height: auto;
@@ -258,12 +301,12 @@ img{
     box-shadow: 0px -16px 22px #6c5957;
 }
 #letter1_txt .txt_style {
-    font-size: 9px;
-    line-height: 1.7em;
+    font-size: 12px;
+    line-height: 1.5em;
     text-align: left;
 }
 #letter1_txt img {
-    width: 49%;
+    width: 40%;
     height: auto;
     margin: 0 auto;
     display: block;
