@@ -13,9 +13,10 @@ $("#overlay").click(function(){
 		jQuery(function($){
 		$('.slider').each(function(){
 			$(this).slick({
-				autoplay:false,
+				autoplay:true,
+				autoplaySpeed: 2000,
 				fade: true,
-				autoplaySpeed:700,
+				speed:2000,
 				dots:false,
 				arrows:false,
 			});

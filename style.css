@@ -214,7 +214,7 @@ body{
 .left .left_txt{
 	position: absolute;
 	z-index: 15;
-	top: 62%;
+	top: 65%;
 	left: 14%;
 	transform: rotate(-4deg);
 	line-height: 1.5;
@@ -289,14 +289,16 @@ body{
 	height: auto;
 	float: left;
 	border-radius: 10px;
+	background: url(images/list_bg.png)no-repeat;
+    background-size: contain;
+    padding: 40px
 }
 .list_library ul li a{
 	display: block;
 	position: relative;
-	margin: 20px 20px;
+	margin: -2px 20px 10px;
 	border-radius: 20px;
 	background-color: #000;
-	box-shadow: 7px 9px 6px #57413d;
 }
 .list_library ul li a img{
 	display: block;
@@ -352,21 +354,30 @@ body{
     background-size: cover;
 	padding: 85px 0;
 }
-#sns{
-	display: flex;
-	width: 80%;
-	height: auto;
-	margin: 0 auto;
+#contact_cnt_child{
+	padding: 0 10%;
+}
+#sns {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 #sns .wrap_sns{
 	width: 20%;
 	height: auto;
 	position: relative;
+	padding-left: 1%;
+	display: block;
+}
+#sns .wrap_sns:first-child{
+	padding-left: -1%;
 }
 #sns .wrap_sns .botton{
 	position: absolute;
 	top: 27%;
-	left: 24%;
+	left: 29%;
 	display: inline-block;
   	text-align: center;
   	overflow: hidden;
@@ -380,12 +391,12 @@ body{
   transform: rotateY(360deg);
 }
 #sns .sns_cnt{
-	margin: 200px 10px 0 0;
+	margin: 200px 0 0 0;
 	padding: 10px;
+	height: 280px;
 }
 
 #sns #face{
-	height: auto;
 	background: url("images/face.png") no-repeat;
 	background-size: 100% auto;
 	box-shadow: 7px 9px 28px #000;
@@ -438,6 +449,67 @@ body{
 #sns #meibo p{
 font-size: 20px;
 font-weight: bold;
+}
+
+.pnavi{
+	position: fixed;
+	top: 80%;
+	right: 0;
+	opacity: 0;
+	transition: opacity .4s linear;
+	z-index: 100;
+}
+.ptop::after{
+	position: absolute;
+	width: 168px;
+	height: 146px;
+	content: "";
+	top: -29px;
+    left: -21px;
+	background: url("images/toara1.png") no-repeat;
+	animation: inout 4s; 
+	animation-iteration-count: infinite;
+	margin: auto;
+	z-index: -1;
+}
+.ptop::before{
+	position: absolute;
+	width: 168px;
+	height: 146px;
+	content: "";
+	top: -29px;
+    left: -21px;
+	background: url("images/toara2.png") no-repeat;
+	animation: inout2 4.1s; 
+	animation-iteration-count: infinite;
+	margin: auto;
+	z-index: -1;
+}
+@keyframes inout2 { 
+0%   { transform: scale(0, 0); } 
+25%   { transform: scale(1.1, 1.1); } 
+}
+@keyframes inout { 
+0%   { transform: scale(0, 0); } 
+25%   { transform: scale(1.1, 1.1); } 
+}
+.pnavi_show{
+	opacity: 1;
+	transition: opacity .4s linear;
+}
+.pnavi_fix .ptop{
+	position: inherit;
+	top:410px;
+	right: 0;
+	transition: opacity .4s linear;
+}
+.ptop a{
+	background: url("images/top_scroll.png") no-repeat;
+	background-size: 100% auto;
+	display: block;
+	width: 150px;
+	height: 130px;
+	text-indent: -9999px;
 }
 #tmp_footer{
 	background: url("images/footer.png") no-repeat;

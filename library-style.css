@@ -178,20 +178,29 @@ body{
 	flex-wrap: wrap;
 	margin: 0 -10px;
 }
+.wrap_library ul.boxclear {
+    display: block;
+}
 .wrap_library ul .box_wrap{
 	background: #e5a19a;
-	padding: 20px;
+	padding: 10px;
 	box-shadow: -6px 3px 6px #959595;
 }
-#Logo_dedign.wrap_library ul .box_wrap {
-    background: #f2ee6c;
-}
-.wrap_library ul li{
-	width: 50%;
+.wrap_library ul li.smallbox{
+	width: 25%;
 	height: auto;
 	margin:0 0 20px 0;
 	padding:0 10px;
 }
+.wrap_library ul li.bigbox{
+	width: 35%;
+	margin: 0 auto;
+}
+
+#Logo_dedign.wrap_library ul li .box_wrap {
+    background: #f2ee6c;
+}
+
 .wrap_library ul li:nth-child(2n){
 	margin-right: 0;
 }
@@ -221,7 +230,7 @@ body{
 }
 .wrap_library ul li .img_txt p {
     color: #fff;
-	font-size: 11pt;
+	font-size: 10pt;
 	line-height: 1.2rem;
 }
 .wrap_library ul li img{
@@ -231,8 +240,149 @@ body{
 .wrap_library ul li .img_txt h3 {
     color: #fff;
 	margin: 0 0 10px 0;
+	font-size: 11pt;
 }
-
+.modalbox_cnt{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    height: auto;
+    width: 32%;
+    background-color: #e5a19a;
+    color: #fff;
+    padding: 22px 29px;
+    z-index: 10;
+	transform: scale(0) translate(-50%,-50%);
+	visibility: hidden;
+    opacity: 0;
+    transition:0.4s;
+    transform-origin:0 0;
+}
+.modalbox_cnt_active{
+	transition:0.4s;
+    transform-origin:0 0;
+    transform: scale(1) translate(-50%,-50%);
+    visibility: visible;
+    opacity: 1;
+    overflow: hidden;
+}
+.modalbox_cnt_active img{
+	width: 100%;
+	height: auto;
+}
+.modalbox_overlay{
+	width: 100%;
+	height: 1000px;
+	background-color: rgba(0,0,0,0.9);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	visibility: hidden;
+    opacity: 0;
+    transition:0.4s;
+}
+.modalbox_overlay_active{
+	visibility: visible;
+    opacity: 1;
+    transition:0.4s;
+}
+.close_button {
+	text-indent: -999px;
+}
+.close_button a{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 0;
+	right: 0;
+}
+.close_button a::after{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	content: "";
+	width: 15px;
+	height: 1px;
+	background-color: #000;
+	color: #000;
+	transform: rotate(45deg);
+}
+.close_button a::before{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	content: "";
+	width: 15px;
+	height: 1px;
+	background-color: #000;
+	color: #000;
+	transform: rotate(-45deg);
+}
+.pnavi{
+	position: fixed;
+	top: 80%;
+	right: 0;
+	z-index: 8;
+	opacity: 0;
+	transition: opacity .4s linear;
+}
+.ptop::after{
+	position: absolute;
+	width: 168px;
+	height: 146px;
+	content: "";
+	top: -29px;
+    left: -21px;
+	background: url("images/toara1.png") no-repeat;
+	animation: inout 4s; 
+	animation-iteration-count: infinite;
+	margin: auto;
+	z-index: -1;
+}
+.ptop::before{
+	position: absolute;
+	width: 168px;
+	height: 146px;
+	content: "";
+	top: -29px;
+    left: -21px;
+	background: url("images/toara2.png") no-repeat;
+	animation: inout2 4.1s; 
+	animation-iteration-count: infinite;
+	margin: auto;
+	z-index: -1;
+}
+@keyframes inout2 { 
+0%   { transform: scale(0, 0); } 
+25%   { transform: scale(1.1, 1.1); } 
+}
+@keyframes inout { 
+0%   { transform: scale(0, 0); } 
+25%   { transform: scale(1.1, 1.1); } 
+}
+.pnavi_show{
+	opacity: 1;
+	transition: opacity .4s linear;
+}
+.pnavi_fix .ptop{
+	position: inherit;
+	top:410px;
+	right: 0;
+	transition: opacity .4s linear;
+}
+.pnavi_show{
+	opacity: 1;
+	transition: opacity .4s linear;
+}
+.ptop a{
+	background: url("images/top_scroll.png") no-repeat;
+	background-size: 100% auto;
+	display: block;
+	width: 150px;
+	height: 130px;
+	text-indent: -9999px;
+}
 #tmp_footer{
 	background: url("images/footer.png") no-repeat;
 	height: 370px;

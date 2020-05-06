@@ -225,6 +225,66 @@ body{
 	width: 100%;
 	height: auto;
 }
+.pnavi{
+	position: fixed;
+	top: 80%;
+	right: 0;
+	z-index: 100;
+	opacity: 0;
+	transition: opacity .4s linear;
+}
+.ptop::after{
+	position: absolute;
+	width: 168px;
+	height: 146px;
+	content: "";
+	top: -29px;
+    left: -21px;
+	background: url("images/toara1.png") no-repeat;
+	animation: inout 4s; 
+	animation-iteration-count: infinite;
+	margin: auto;
+	z-index: -1;
+}
+.ptop::before{
+	position: absolute;
+	width: 168px;
+	height: 146px;
+	content: "";
+	top: -29px;
+    left: -21px;
+	background: url("images/toara2.png") no-repeat;
+	animation: inout2 4.1s; 
+	animation-iteration-count: infinite;
+	margin: auto;
+	z-index: -1;
+}
+@keyframes inout2 { 
+0%   { transform: scale(0, 0); } 
+25%   { transform: scale(1.1, 1.1); } 
+}
+@keyframes inout { 
+0%   { transform: scale(0, 0); } 
+25%   { transform: scale(1.1, 1.1); } 
+}
+.pnavi_show{
+	opacity: 1;
+	transition: opacity .4s linear;
+}
+.pnavi_fix .ptop{
+	position: inherit;
+	top:410px;
+	right: 0;
+	transition: opacity .4s linear;
+}
+.ptop a{
+	background: url("images/top_scroll.png") no-repeat;
+	background-size: 100% auto;
+	display: block;
+	width: 150px;
+	height: 130px;
+	text-indent: -9999px;
+}
 #tmp_footer{
 	background: url("images/footer.png") no-repeat;
 	height: 370px;
