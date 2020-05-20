@@ -4,8 +4,10 @@ $(function(){
 			event.preventDefault();
 			$('.modalbox_cnt').addClass('modalbox_cnt_active');
 			$('.modalbox_overlay').addClass('modalbox_overlay_active');
-			var get_img = $(this).children('.box_wrap').find('span').clone();
+			//var get_img = $(this).children('.box_wrap').find('span').clone();
+			var get_img = $(this).children('.box_wrap').clone();
 			$('.modalbox_cnt').find('.modalbox_get').append(get_img);
+			$('.modalbox_cnt').find('.img_txt').remove();
 			$(document).on('click','.modalbox_overlay, .close_button a',function(){
 				event.preventDefault();
 				$('.modalbox_cnt').removeClass('modalbox_cnt_active');

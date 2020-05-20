@@ -246,11 +246,6 @@ body{
 	position: fixed;
     top: 50%;
     left: 50%;
-    height: auto;
-    width: 32%;
-    background-color: #e5a19a;
-    color: #fff;
-    padding: 22px 29px;
     z-index: 10;
 	transform: scale(0) translate(-50%,-50%);
 	visibility: hidden;
@@ -265,6 +260,14 @@ body{
     visibility: visible;
     opacity: 1;
     overflow: hidden;
+}
+.modalbox_cnt .get_talet{
+	display: block;
+    background-color: #e5a19a;
+    color: #fff;
+    width: 60%;
+    margin: 0 auto;
+    padding: 22px 29px;
 }
 .modalbox_cnt_active img{
 	width: 100%;
@@ -292,10 +295,12 @@ body{
 }
 .close_button a{
 	position: absolute;
-	width: 30px;
-	height: 30px;
-	top: 0;
-	right: 0;
+	width: 20px;
+	height: 20px;
+	top: -2px;
+	right: 50%;
+	transform: translateX(-50%);
+	margin-right: -20px;
 }
 .close_button a::after{
 	position: absolute;
