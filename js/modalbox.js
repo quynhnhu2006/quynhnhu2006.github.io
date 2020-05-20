@@ -19,26 +19,25 @@ $(function(){
 		event.preventDefault();
 		$('html').animate({scrollTop:0}, 600);
 	});
-	$(window).on('scroll', function(event) {
-		if($(this).scrollTop()>200){
-			$('.pnavi').addClass('pnavi_show');
-		}
-		else{
-			$('.pnavi').removeClass('pnavi_show');
-		}
-
-
-		//footer//
-		console.log
-		scrollHeight=$(document).height();
-		scrollPosition = $(window).height() + $(window).scrollTop();
-		footHeight=$('#tmp_footer').height();
-		if ( scrollHeight - scrollPosition  <= footHeight ) {
-			$('.pnavi').addClass('pnavi_fix');
-		}
-		else{
-			$('.pnavi').removeClass('pnavi_fix');
-		}
-
-	});
+	if ($(window).width() >= 640 ) {
+		$(window).on('scroll', function(event) {
+			if($(this).scrollTop()>200){
+				$('.pnavi').addClass('pnavi_show');
+			}
+			else{
+				$('.pnavi').removeClass('pnavi_show');
+			}
+			//footer//
+			
+				scrollHeight=$(document).height();
+				scrollPosition = $(window).height() + $(window).scrollTop();
+				footHeight=$('#tmp_footer').height();
+				if ( scrollHeight - scrollPosition  <= footHeight ) {
+					$('.pnavi').addClass('pnavi_fix');
+				}
+				else{
+					$('.pnavi').removeClass('pnavi_fix');
+				}
+		});
+	}
 });

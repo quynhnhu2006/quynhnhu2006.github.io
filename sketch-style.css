@@ -43,7 +43,7 @@ body{
 	font-family: "a-otf-gothic-bbb-pr6n","游ゴシック体","Yu Gothic","YuGothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",sans-serif;
 }
 #tmp_wrap_body{
-	min-width: 1520px;
+	min-width: 1240px;
 	height: auto;
 	margin: 0;
 	background:url("images/OI4K8P0.jpg")no-repeat;
@@ -248,6 +248,9 @@ body{
     opacity: 0;
     transition:0.4s;
     transform-origin:0 0;
+}
+.modalbox_cnt{
+    width: 60%;
 }
 .modalbox_cnt_active{
 	transition:0.4s;
