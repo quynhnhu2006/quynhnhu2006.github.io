@@ -43,7 +43,7 @@ body{
 	height: auto;
 	margin: 0;
 	padding: 0;
-	background:url("images/OI4K8P0.jpg")no-repeat;
+	background:url("project_portofolio/images/OI4K8P0.jpg")no-repeat;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ body{
 	z-index: 1;
 	width: 100%;
 	height: auto;
-	background:url("images/header.png") no-repeat;
+	background:url("project_portofolio/images/header.png") no-repeat;
 	background-size: 100% auto;
 	padding: 24px 0;
 	margin: 0 0 0 auto;
@@ -137,7 +137,7 @@ body{
 	width: 37%;
     height: 270px;
     position: absolute;
-    background: url("images/old-letter.png") no-repeat;
+    background: url("project_portofolio/images/old-letter.png") no-repeat;
 	background-size: 100% auto;
 	top: 330px;
 	right: 128px;
@@ -290,7 +290,7 @@ body{
 	height: auto;
 	float: left;
 	border-radius: 10px;
-	background: url(images/list_bg.png)no-repeat;
+	background: url(project_portofolio/images/list_bg.png)no-repeat;
     background-size: contain;
     padding: 40px
 }
@@ -323,19 +323,19 @@ body{
 	transition: opacity cubic-bezier(0.6, 0, 0.2, 1) 1s 0.1s;
 }
 .list_library ul #SK1 a::after{
-	background: url("images/sketch-BG.png") no-repeat;
+	background: url("project_portofolio/images/sketch-BG.png") no-repeat;
     background-size: 100% auto;
 }
 .list_library ul #L1 a::after{
-	background: url("images/logodesign.png")no-repeat;
+	background: url("project_portofolio/images/logodesign.png")no-repeat;
 	background-size: 100% auto;
 }
 .list_library ul #W1 a::after{
-	background: url("images/w1.png");
+	background: url("project_portofolio/images/w1.png");
 	background-size: 100% auto;
 }
 .list_library ul #G1 a::after{
-	background: url("images/G1.png")no-repeat;
+	background: url("project_portofolio/images/G1.png")no-repeat;
 	background-size: 100% auto;
 }
 .list_library ul li a:hover::after{
@@ -348,7 +348,7 @@ body{
 	width: 80%;
 	margin: 0 auto;
 	height: 800px;
-	background: url("images/aged-1867381_1920.jpg");
+	background: url("project_portofolio/images/aged-1867381_1920.jpg");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -398,7 +398,7 @@ body{
 }
 
 #sns #face{
-	background: url("images/face.png") no-repeat;
+	background: url("project_portofolio/images/face.png") no-repeat;
 	background-size: 100% auto;
 	box-shadow: 7px 9px 28px #000;
 }
@@ -420,12 +420,12 @@ body{
 	line-height: 19px;
 }
 #sns #line{
-	background: url("images/line.png") no-repeat;
+	background: url("project_portofolio/images/line.png") no-repeat;
 	background-size: 100% auto;
 	box-shadow: 7px 9px 28px #000;
 }
 #sns #instra{
-	background: url("images/ins.png") no-repeat;
+	background: url("project_portofolio/images/ins.png") no-repeat;
 	background-size: 100% auto;
 	box-shadow: 7px 9px 28px #000;
 }
@@ -433,7 +433,7 @@ body{
 	margin: 75px auto 35px;
 }
 #sns #gmail{
-	background: url("images/gmail.png") no-repeat;
+	background: url("project_portofolio/images/gmail.png") no-repeat;
 	background-size: 100% auto;
 	padding: 104px 0;
 	box-shadow: 7px 9px 28px #000;
@@ -443,7 +443,7 @@ body{
 }
 #sns #meibo{
 	padding: 130px 0;
-	background:url("images/contact4.png") no-repeat;
+	background:url("project_portofolio/images/contact4.png") no-repeat;
 	background-size: 100% auto;
 	box-shadow: 7px 9px 28px #000;
 }
@@ -467,7 +467,7 @@ font-weight: bold;
 	content: "";
 	top: -29px;
     left: -21px;
-	background: url("images/toara1.png") no-repeat;
+	background: url("project_portofolio/images/toara1.png") no-repeat;
 	animation: inout 4s; 
 	animation-iteration-count: infinite;
 	margin: auto;
@@ -480,7 +480,7 @@ font-weight: bold;
 	content: "";
 	top: -29px;
     left: -21px;
-	background: url("images/toara2.png") no-repeat;
+	background: url("project_portofolio/images/toara2.png") no-repeat;
 	animation: inout2 4.1s; 
 	animation-iteration-count: infinite;
 	margin: auto;
@@ -505,7 +505,7 @@ font-weight: bold;
 	transition: opacity .4s linear;
 }
 .ptop a{
-	background: url("images/top_scroll.png") no-repeat;
+	background: url("project_portofolio/images/top_scroll.png") no-repeat;
 	background-size: 100% auto;
 	display: block;
 	width: 150px;
@@ -513,7 +513,7 @@ font-weight: bold;
 	text-indent: -9999px;
 }
 #tmp_footer{
-	background: url("images/footer.png") no-repeat;
+	background: url("project_portofolio/images/footer.png") no-repeat;
 	height: 370px;
 	width: 100%;
 	padding: 303px 0 0;

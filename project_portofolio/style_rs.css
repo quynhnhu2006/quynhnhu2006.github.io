@@ -33,7 +33,7 @@ img{
     right: 0;
     width: 100%;
     height: auto;
-    background: url("images/header_2.png") no-repeat;
+    background: url("project_portofolio/images/header_2.png") no-repeat;
     background-size: auto;
     background-size: 100% auto;
     padding:0;
@@ -208,7 +208,7 @@ img{
 	font-size: 10px;
 }
 #sns #gmail {
-    background: url("images/gmail.png") no-repeat;
+    background: url("project_portofolio/images/gmail.png") no-repeat;
     background-size: auto;
     background-size: 100% auto;
     padding: 62px 0;
@@ -253,7 +253,7 @@ img{
 }	
 #tmp_wrap_body #tmp_body #to {
     width: 90%;
-    background: url("images/tobG.png") no-repeat;
+    background: url("project_portofolio/images/tobG.png") no-repeat;
     position: relative;
     perspective: 500px;
     height: 277px;
@@ -295,7 +295,7 @@ img{
 #letter_cnt2 .letter_text {
     width: 50%;
     height: auto;
-    background: url("images/paper01.png") no-repeat;
+    background: url("project_portofolio/images/paper01.png") no-repeat;
         background-size: auto;
     background-size: 100% auto;
     padding: 28px 15px 5px;
@@ -307,7 +307,7 @@ img{
     width: 100%;
     height: auto;
     padding: 5px;
-    background:url("images/letter_resp.png") no-repeat;
+    background:url("project_portofolio/images/letter_resp.png") no-repeat;
 	background-size: auto 100%;
 }
 #letter_content #letter1 #rotate {
@@ -337,7 +337,7 @@ img{
 	padding: 0 20px;
 }
 #tmp_footer {
-    background: url("images/footer.png") no-repeat;
+    background: url("project_portofolio/images/footer.png") no-repeat;
     height: auto;
     width: 100%;
     padding: 126px 0 0;
