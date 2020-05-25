@@ -16,7 +16,7 @@ body{
 	font-size: 24px;
 }
 #wrap{
-	max-width: 1520px;
+	min-width: 1520px;
 }
 #mainvisual img {
     display: block;

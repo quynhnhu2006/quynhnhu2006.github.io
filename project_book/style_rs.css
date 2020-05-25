@@ -1,18 +1,22 @@
 @charset "utf-8";
-/* CSS Document */
+@media screen and (max-width : 480px) {
+/* body
+================================================== */
+body {
+	-webkit-text-size-adjust:none;
+	font-size: 87.5%;
+}
+/* wrapper
+================================================== */
+#tmp_wrapper {
+	width:100%;
+	min-width:320px;
+	margin:0 !important;
+	overflow: hidden;
+}
+.container{
+	width: 100%;
+	padding: 0 10px;
+}	
+}
 
-
-	
-/*.toggle-button {
-    position: fixed;
-    top: 8px;
-    left: 15px;
-    padding: 9px 10px;
-    margin: 8px 15px 8px 0;
-    height: 20px;
-    width: 50px;
-    cursor: pointer;
-    z-index: 3;
-    visibility: visible;
-    opacity: 1;
-}*/
