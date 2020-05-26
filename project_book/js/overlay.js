@@ -36,15 +36,33 @@ $(function(){
 						return false;
 			});
 
-		$('.slider').each(function(){
+		/*$('.slider').each(function(){
 			$(this).slick({
-				autoplay:true,
+				autoplay:false,
 				autoplaySpeed:1000,
 				slidesToShow: 1,
 				slidesToScroll: 1,
 				centerMode:true,
 				dots:false,
 				arrows:false,
+			});
+		});*/
+		$('.slider').each(function(){
+			$('.slider').slick({
+				autoplay:false,
+				autoplaySpeed:1000,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				centerMode:true,
+				dots:false,
+				arrows:false,
+				responsive: [{
+					breakpoint: 481,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+					}
+				}]
 			});
 		});
 		$('.slider2').each(function(){
@@ -56,6 +74,13 @@ $(function(){
 				centerMode:true,
 				dots:false,
 				arrows:true,
+				responsive: [{
+					breakpoint: 481,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+					}
+				}]
 			});
 		});
 	

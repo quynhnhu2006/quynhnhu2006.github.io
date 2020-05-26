@@ -28,9 +28,10 @@ body {
 }
 #wrap_slide {
     overflow: hidden;
-    background: url("images/mainvisual_slide.jpg") no-repeat;
-        background-size: auto;
-    background-size: 100% auto;
+    background: none;
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 20px;
 }
 #wrap_slide .container {
     margin: 0;
@@ -121,5 +122,48 @@ ul.SNS_share li a {
     width: 40px;
     height: 40px;
     margin: 0 auto;
+}
+#wrap_slide .container {
+    min-width: 100%;
+    position: relative;
+    margin: 0;
+}
+ul.slide_list_block li {
+    padding: 0;
+    width: 100%;
+}
+#wrap_slide .slick-list {
+    width: 100%;
+    padding: 0;
+    padding: 0 !important;
+}
+ul.slide_list_block li .slide_book_img,
+ul.slide_list_block li .slide_book_cnt {
+    float: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+ul.slide_list_block {
+    margin: 0;
+}
+.button {
+    box-shadow: none;
+}
+.wrap_book_category .book_category_cnt ul.book_category_cnt_list .slick-list {
+    width: 100%;
+    margin: 0 auto;
+}
+.wrap_book_category .book_category_cnt .slider2 .slick-prev{
+    left: -3px;
+    background: url(images/prev2.png)no-repeat center center;
+    z-index: 99;
+    background-size: 90% auto;
+}
+.wrap_book_category .book_category_cnt .slider2 .slick-next{
+    right: -3px;
+    background: url(images/next2.png)no-repeat center center;
+    z-index: 99;
+    background-size: 90% auto;
 }
 }
