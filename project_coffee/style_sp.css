@@ -75,7 +75,7 @@ nav ul.tate {
 .overlay {
     position: fixed;
     display: flex;
-    background-image: url("img/menurespon.png");
+    background-image: url("/project_coffee/images/menurespon.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -216,7 +216,7 @@ h3, h4 {
 #wrap_footer {
 
     width: 100%;
-    background: url("img/footer.png") no-repeat;
+    background: url("/project_coffee/images/footer.png") no-repeat;
         background-size: auto;
     background-size: 100% 100%;
 

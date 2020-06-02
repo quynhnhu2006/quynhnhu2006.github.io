@@ -39,7 +39,7 @@ body{
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
-	background-image: url("img/paper-1074131_1920.jpg");
+	background-image: url("/project_coffee/images/paper-1074131_1920.jpg");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@ header ul li{
 	float: left;
 }
 header ul li:first-child{
-	background: url("img/LOCAL2.png")no-repeat;
+	background: url("/project_coffee/images/LOCAL2.png")no-repeat;
 	background-size: 13px 13px;
 }
 header ul li:first-child a{
@@ -211,7 +211,7 @@ nav .tate li a:hover{
 .overlay {
     position: fixed;
 	display: flex;
-    background-image: url("img/coffee-171653_1920.png");
+    background-image: url("/project_coffee/images/coffee-171653_1920.png");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	margin: 0 auto;
@@ -314,7 +314,7 @@ h3, h4{
 #about_content1{
 	width: 40%;
 	height: 1000px;
-	background: url("img/aboutimg1.png") no-repeat;
+	background: url("/project_coffee/images/aboutimg1.png") no-repeat;
 	background-size: 100% auto;
 	margin: 0 0 0 70px;
 }
@@ -362,7 +362,7 @@ h3, h4{
 	width: 100%;
 	height: auto;
 	display: block;
-	background: url("img/office-336368_640.jpg") no-repeat;
+	background: url("/project_coffee/images/office-336368_640.jpg") no-repeat;
 	background-size: 100% 100%;
 }
 
@@ -424,7 +424,7 @@ h3, h4{
 	width: 100%;
 	height: 240px;
 	display: block;
-	background: url("img/about_img1.png") no-repeat;
+	background: url("/project_coffee/images/about_img1.png") no-repeat;
 	background-size: 100% 100%;
 }
 .item1_2{
@@ -486,7 +486,7 @@ h3, h4{
 	width: 240px;
 	height: 240px;
 	display: block;
-	background: url("img/about_img2.png") no-repeat;
+	background: url("/project_coffee/images/about_img2.png") no-repeat;
 	background-size: 100% 100%;
 }
 .item1_2{
@@ -498,7 +498,7 @@ h3, h4{
 	width: 240px;
 	height: 240px;
 	display: block;
-	background: url("img/about_img3.png") no-repeat;
+	background: url("/project_coffee/images/about_img3.png") no-repeat;
 	background-size: 100% 100%;
 }
 #item4{
@@ -506,7 +506,7 @@ h3, h4{
 	width: 240px;
 	height: 240px;
 	display: block;
-	background: url("img/about_img4.png") no-repeat;
+	background: url("/project_coffee/images/about_img4.png") no-repeat;
 	background-size: 100% 100%;
 }
 #item5{
@@ -514,7 +514,7 @@ h3, h4{
 	width: 240px;
 	height: 240px;
 	display: block;
-	background: url("img/about_img5.png") no-repeat;
+	background: url("/project_coffee/images/about_img5.png") no-repeat;
 	background-size: 100% 100%;
 }
 #item6{
@@ -522,7 +522,7 @@ h3, h4{
 	width: 240px;
 	height: 240px;
 	display: block;
-	background: url("img/about_img6.png") no-repeat;
+	background: url("/project_coffee/images/about_img6.png") no-repeat;
 	background-size: 100% 100%;
 }
 #item7{
@@ -530,7 +530,7 @@ h3, h4{
 	width: 240px;
 	height: 240px;
 	display: block;
-	background: url("img/about_img7.png") no-repeat;
+	background: url("/project_coffee/images/about_img7.png") no-repeat;
 	background-size: 100% 100%;
 }
 /*******************************************button2************************************/
@@ -690,7 +690,7 @@ h3, h4{
 /******************************************sns icon************************/
 #wrap_footer{
 	width: 100%;
-	background: url("img/footer.png") no-repeat;
+	background: url("/project_coffee/images/footer.png") no-repeat;
 	background-size: 100% auto;
 	padding: 230px 0 0;
 }
@@ -981,7 +981,7 @@ h3, h4 {
 #wrap_footer {
 
     width: 100%;
-    background: url("img/footer.png") no-repeat;
+    background: url("/project_coffee/images/footer.png") no-repeat;
         background-size: auto;
     background-size: 100% auto;
 
