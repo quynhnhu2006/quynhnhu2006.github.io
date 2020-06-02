@@ -115,6 +115,15 @@ header ul li span{
 	left: 0;
 	z-index: 9999;
 }
+nav {
+    width: 100px;
+    height: 750px;
+    background-color: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
 nav ul.tate{
 	width: 450px;
 	position: absolute;
