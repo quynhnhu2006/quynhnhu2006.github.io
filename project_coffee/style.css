@@ -1406,8 +1406,9 @@ footer #small_block_right .small_all a:nth-last-of-type(3){
 	color:  #fff;
 	margin: 0;
 }
+
 /******************************************media*************************************************/
-@media screen and (max-width : 640px){
+/*@media screen and (max-width : 640px){
 #wrap_body{
 	width: 100%;
 	min-width: 320px;
