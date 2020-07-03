@@ -17,6 +17,7 @@ body{
 }
 #wrap{
 	min-width: 1520px;
+	overflow: hidden;
 }
 #mainvisual img {
     display: block;
@@ -299,6 +300,7 @@ background-color: #1b1f28;
 .reading_BG_cnt{
 	width: 100%;
 	height: auto;
+	position: relative;
 }
 /************************************wrap_logo********************************************/
 #wrap_logo{
@@ -683,9 +685,10 @@ ul.slide_list_block li .slide_book_cnt .fullill::after{
 .wrap_book_category .book_category_cnt ul.book_category_cnt_list li .book_category_cnt_list_info p{
 	display: inline-block;
 	width: 100%;
-	min-height: 55px;
+	min-height: 61px;
 	text-align: center;
 	color: #fff;
+	font-size: 14pt;
 }
 .wrap_book_category .book_category_cnt ul.book_category_cnt_list li .book_category_cnt_list_info .price_tag{
 	color: red;
@@ -815,11 +818,12 @@ ul.slide_list_block li .slide_book_cnt .fullill::after{
 .wrap_bg{
 	position: relative;
 }
-#wrap_book_button ul{
-	width: 80%;
-	position: absolute;
-	top: 1265px;
-    left: 150px;
+#wrap_book_button{
+    position: absolute;
+    top: 40%;
+    width: 1200px;
+    margin: 0 auto;
+    left: 160px;
 }
 #wrap_book_button ul::after{
 	display: block;
@@ -828,10 +832,11 @@ ul.slide_list_block li .slide_book_cnt .fullill::after{
 }
 #wrap_book_button ul li span{
 	width: 100%;
-    height: auto;
+    height: 100%;
     display: inline-block;
 	text-indent: -9999px;
 	cursor: pointer;
+	display: block;
 }
 #wrap_book_button ul li:first-child{
 	float: right;
@@ -943,4 +948,13 @@ ul.SNS_share li.twitter a{
 ul.SNS_share li.gmail a{
 	background: url("images/mail.png")no-repeat center center;
 	background-size: 100% auto;
+}
+/*********************************parallax_show**************************************/
+.parallax{
+	opacity: 0;
+	transition: opacity 1.5s ease-in-out;
+}
+.css_show{
+	opacity: 1;
+	transition: all 1.5s ease-in-out;
 }
