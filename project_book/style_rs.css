@@ -17,6 +17,7 @@ body {
 #wrap_content {
     width: auto;
     background: url("images/bg3_rs_.jpg") no-repeat;
+	background-color: #e7abca;
 	background-attachment: fixed;
 	/*background-position: center;*/
 	background-repeat: no-repeat;
