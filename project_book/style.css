@@ -748,7 +748,7 @@ ul.slide_list_block li .slide_book_cnt .fullill::after{
 }
 .wrap_book_category .book_category_cnt ul.book_category_cnt_list li .price_hide a.Like_button{
 	width: 20%;
-    min-height: 50px;
+    min-height: 52px;
     padding: 5px;
     background: url("images/seemore (2).png")no-repeat center center;
     background-size: 70% auto;
@@ -762,7 +762,7 @@ ul.slide_list_block li .slide_book_cnt .fullill::after{
 }
 .wrap_book_category .book_category_cnt ul.book_category_cnt_list li .price_hide a.seemore{
 	width: 20%;
-	min-height: 50px;
+	min-height: 52px;
     padding: 5px;
     background: url("images/seemore (1).png")no-repeat center center;
     background-size: 70% auto;
