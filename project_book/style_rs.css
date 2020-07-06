@@ -18,7 +18,7 @@ body {
     width: auto;
     background: url("images/bg3_rs.jpg") no-repeat;
 	background-attachment: fixed;
-	background-position: center;
+	/*background-position: center;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 }
