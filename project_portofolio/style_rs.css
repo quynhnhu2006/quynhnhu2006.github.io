@@ -44,6 +44,7 @@ img{
     text-align: center;
 	font-size: 13pt;
 	padding: 5px 0;
+	color: yellow;
 }
 #tmp_main_text {
     width: 40%;
@@ -369,6 +370,8 @@ img{
 .left #danhthiep,
 .left #danhthiep2{
     width: 60%;
+	transform: rotate(0deg);
+}
 }
 .list_library ul li {
     padding: 25px 40px 35px;
