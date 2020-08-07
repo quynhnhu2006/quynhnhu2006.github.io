@@ -49,7 +49,7 @@ img{
 #tmp_main_text {
     width: 40%;
     height: auto;
-    top: 333px;
+    top: 100px;
 	right: 55px;
     padding: 33px 20px 55px;
 }
@@ -131,7 +131,7 @@ img{
 #tmp_wrap_profile .banner_Profile img{
     position: absolute;
 	top: -166px;
-	left: -122px;
+	left: -105px;
 	z-index: 7;
 	width: 100%;
 	height: auto;
@@ -259,12 +259,16 @@ img{
 }	
 #tmp_wrap_body #tmp_body #to {
     width: 90%;
-    background: url("project_portofolio/images/tobG.png") no-repeat;
+    background: url("images/tobG.png") no-repeat;
     position: relative;
     perspective: 500px;
     height: 277px;
-    box-shadow: -7px 9px 22px #6c5957;
+    box-shadow: none;
     margin: 50px auto 0;
+}
+#letter_content #letter1 #L1 {	
+	display: none;
+    visibility: hidden;
 }
 #tmp_wrap_body #tmp_body #to #nho #bottom_positon {
     width: 100%;
@@ -328,15 +332,15 @@ img{
     box-shadow: 0px -16px 22px #6c5957;
 }
 #letter1_txt .txt_style {
-    font-size: 12px;
-    line-height: 1.5em;
-    text-align: left;
+	display: none;
+    visibility: hidden;
 }
 #letter1_txt img {
     width: 40%;
     height: auto;
     margin: 0 auto;
-    display: block;
+    display: none;
+	visibility: hidden;
 }
 .container {
     width: 100%;
@@ -415,7 +419,8 @@ img{
     display: block;
 }
 .letter_text .txt_style {
-    font-size: 12px;
+    font-size: 15px;
+    text-align: center;
 }
 .list_library ul li {
     padding: 0;
