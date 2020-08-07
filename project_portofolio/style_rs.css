@@ -2,6 +2,7 @@
 #tmp_wrap_body{
 	min-width: 320px;
 	width: 100%;
+	background: #f7edd0b0 center; 
 }
 p {
     font-size: 10pt;
@@ -139,7 +140,7 @@ img{
 	padding: 0;
     width: 100%;
     margin: 0 auto;
-    height: auto;	
+    height: 145px;	
 }
 .right {
     position: relative;
@@ -481,5 +482,8 @@ img{
     bottom: auto;
     top: auto;
     opacity: 1;
+}
+#tmp_contact #contact_cnt {
+	background: #33333354 center;
 }
 }
