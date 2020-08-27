@@ -1,6 +1,6 @@
-@media screen and (max-width : 755px) {
+@media screen and (max-width : 750px) {
 #tmp_wrap_body{
-	min-width: initial;
+	min-width: 320px;
 	width: 100%;
 	background: #f7edd0b0 center; 
 }
@@ -14,10 +14,7 @@ p {
 #tmp_menu {
 	padding: 15px 0;
 }
-.left .left_txt {
-    display: block;
-    visibility: visible;
-}
+
 .banner_Profile h2 img{
 	width: 100%;
 	height: auto;

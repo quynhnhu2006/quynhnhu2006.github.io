@@ -147,7 +147,7 @@ body{
 	width: 37%;
     height: 270px;
     position: absolute;
-    background: url("/project_portofolio/images/old-letter.png") no-repeat;
+    background: url("images/old-letter.png") no-repeat;
 	background-size: 100% auto;
 	top: 330px;
 	right: 128px;
