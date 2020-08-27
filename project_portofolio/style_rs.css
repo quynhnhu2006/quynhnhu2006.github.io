@@ -1,4 +1,4 @@
-@media screen and (max-width : 750px) {
+@media screen and (max-width : 755px) {
 #tmp_wrap_body{
 	min-width: initial;
 	width: 100%;
@@ -7,9 +7,16 @@
 p {
     font-size: 10pt;
 }
-img{
-	width: 100%;
-	height: auto;
+#tmp_menu ul {
+    width: 85%;
+    margin: 0 0 0 300px;
+}
+#tmp_menu {
+	padding: 15px 0;
+}
+.left .left_txt {
+    display: block;
+    visibility: visible;
 }
 .banner_Profile h2 img{
 	width: 100%;
@@ -401,10 +408,7 @@ img{
 .list_library ul li a {
     margin: 0;
 }
-.left .left_txt {
-    display: none;
-    visibility: hidden;
-}
+
 .wrap_right {
     position: static;
     padding: 20px;
@@ -414,6 +418,10 @@ img{
     width: 100%;
 }
 #tmp_wrap_body #tmp_body #to #nho {
+    display: none;
+    visibility: hidden;
+}
+.left .left_txt {
     display: none;
     visibility: hidden;
 }
