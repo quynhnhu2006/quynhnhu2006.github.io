@@ -47,7 +47,7 @@ body{
 	min-width: 1240px;
 	height: auto;
 	margin: 0;
-	background:url("/project_portofolio/images/OI4K8P0.jpg")no-repeat;
+	background:url("images/OI4K8P0.jpg")no-repeat;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ body{
 	right: 0;
 	width: 100%;
 	height: auto;
-	background:url("/project_portofolio/images/header.png") no-repeat;
+	background:url("images/header.png") no-repeat;
 	background-size: 100% auto;
 	padding: 25px 0;
 	margin: 0 0 0 auto;
@@ -273,7 +273,8 @@ body{
 #letter_content #letter1{
 	width: 50%;
 	height: auto;
-	position: relative
+	position: relative;
+	margin: 0 auto;
 } 
 #letter_content #letter2{
 	width: 50%;
@@ -357,12 +358,12 @@ height: auto;
 #letter2 #rotate2{
 	transform-origin: 50% 50%;
 	transition: transform 0.8s linear;
-	z-index: 11;
+
 }
 #letter2 #rotate3{
 	transform-origin: 50% 50%;
 	transition: transform 0.8s linear;
-	z-index: 11;
+
 }
 #letter2:hover #rotate2{
  	transform: translateY(-230px) rotate(-5deg);
@@ -425,7 +426,7 @@ height: auto;
 	content: "";
 	top: -29px;
     left: -21px;
-	background: url("/project_portofolio/images/toara1.png") no-repeat;
+	background: url("images/toara1.png") no-repeat;
 	animation: inout 4s; 
 	animation-iteration-count: infinite;
 	margin: auto;
@@ -438,7 +439,7 @@ height: auto;
 	content: "";
 	top: -29px;
     left: -21px;
-	background: url("/project_portofolio/images/toara2.png") no-repeat;
+	background: url("images/toara2.png") no-repeat;
 	animation: inout2 4.1s; 
 	animation-iteration-count: infinite;
 	margin: auto;
@@ -467,7 +468,7 @@ height: auto;
 	transition: opacity .4s linear;
 }
 .ptop a{
-	background: url("/project_portofolio/images/top_scroll.png") no-repeat;
+	background: url("images/top_scroll.png") no-repeat;
 	background-size: 100% auto;
 	display: block;
 	width: 150px;
@@ -475,7 +476,7 @@ height: auto;
 	text-indent: -9999px;
 }
 #tmp_footer{
-	background: url("/project_portofolio/images/footer.png") no-repeat;
+	background: url("images/footer.png") no-repeat;
 	height: 370px;
 	width: 100%;
 	padding: 303px 0 0;
