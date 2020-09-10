@@ -59,8 +59,9 @@ body{
 	height: auto;
 }
 #tmp_mainvisual #mainvisual_img{
-	width: 70%;
+	width: 80%;
 	height: auto;
+	margin: 0 auto;
 }
 #tmp_mainvisual #mainvisual_img img{
 	width: 100%;
