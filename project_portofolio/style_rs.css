@@ -4,6 +4,11 @@
 	width: 100%;
 	background: #f7edd0b0 center; 
 }
+.slick-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 p {
     font-size: 10pt;
 }
@@ -14,22 +19,13 @@ p {
 #tmp_menu {
 	padding: 15px 0;
 }
-
+#tmp_body #tmp_menu h1 img{
+    display: block;
+    width: 40px;
+    height: auto;
+}
 .banner_Profile h2 img{
 	width: 100%;
-	height: auto;
-}
-#tmp_menu ul li {
-    width: 33.33%;
-    float: left;
-    padding: 0;
-}
-#tmp_menu ul {
-    width: 85%;
-    margin: 0;
-}
-#tmp_menu ul h1{
-	width: 20%;
 	height: auto;
 }
 #tmp_menu {
@@ -43,17 +39,32 @@ p {
     padding: 5px 0 0;;
     margin: 0 0 0 auto;
 }
+#tmp_menu ul {
+    width: 85%;
+    margin: 0;
+}
+#tmp_menu ul li {
+    width: 33.33%;
+    float: left;
+    padding: 0;
+}
+
+#tmp_menu ul h1{
+	width: 20%;
+	height: auto;
+}
+
 #tmp_menu ul li a {
     display: block;
     text-align: center;
 	font-size: 13pt;
-	padding: 5px 0;
+	padding: 5px 0 15px 0;
 	color: #333;
 }
 #tmp_main_text {
-    width: 40%;
+    width: 150px;
     height: auto;
-    top: 190px;
+    top: 95px;
 	right: 90px;
     padding: 33px 20px 55px;
 }
@@ -61,6 +72,10 @@ p {
 	display: block;
 	top: 0;
 	left: 0;
+}
+#tmp_main_text span img{
+	width: 95px;
+	height: auto;
 }
 .dropdown-content {
     display: none;
@@ -99,6 +114,10 @@ p {
     width: 80%;
     height: auto;
 }
+#tmp_main_text h2 img{
+	width: 85px;
+	height: auto;	 
+}
 #letter{
 	display: none;
 	visibility: hidden;
@@ -125,7 +144,7 @@ p {
 	padding: 120px 10px 0;
 }
 .wrap_right p {
-    font-size: 11pt;
+    font-size: 9pt;
 }
 .left .left_txt {
     position: absolute;
@@ -508,5 +527,21 @@ p {
 }
 #tmp_contact #contact_cnt {
 	background: #33333354 center;
+}
+#sns .wrap_sns .botton img {
+    width: 45px;
+    height: auto;
+}
+.ptop a {
+    width: 68px;
+    height: 68px;
+}
+.ptop::before {
+	display: none;
+	visibility: hidden;
+}
+.ptop::after {
+	display: none;
+	visibility: hidden;
 }
 }
