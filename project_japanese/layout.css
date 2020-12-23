@@ -584,6 +584,8 @@ tmp_jpskill_box_02 h3.parallax.css_show{
 	background-color:#000000 !important;
 	border-color:#FFF !important;
 }
+.color_black #tmp_about_01 .section_cnt ul li,
+.color_black #tmp_about_01 .section_cnt ul li p,
 .color_black #tmp_wrap a,
 .color_black #tmp_wrap a span,
 .color_black #tmp_wrap button,
