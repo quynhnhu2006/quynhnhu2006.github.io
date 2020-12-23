@@ -408,13 +408,13 @@ main #tmp_about_05 .section_cnt ul {
     padding: 15px 0 0 0;
 }
 #tmp_study_list ul li .wrap_mondai_list span.japanese_object {
-    font-size: 235%;
+    font-size: 145%;
 }
 #tmp_study_list ul li .wrap_mondai_list span.japanese_object_smaller {
     font-size: 115%;
 }
 #tmp_study_list ul li .mondai_txt p {
-    font-size: 140%;
+    font-size: 125%;
 }
 	
 #tmp_mondai_page_button{
