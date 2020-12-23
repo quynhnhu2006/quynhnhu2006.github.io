@@ -577,6 +577,7 @@ tmp_jpskill_box_02 h3.parallax.css_show{
 /* text:yellow
 /* link:white
 ================================================== */
+/****************************************************************************/
 .color_black #tmp_wrap,
 .color_black #tmp_wrap * {
 	color:#FFF !important;
@@ -604,17 +605,17 @@ tmp_jpskill_box_02 h3.parallax.css_show{
 	border-color: #ffff00 !important;
 }
 .color_black #tmp_wrap .wrap_header {
-    background: #edbfc1 url("image/header_bg.jpg") no-repeat center center !important;
+    background: #260505!important;
 }
 .color_black #tmp_wrap .wrap_header .container{
     background: transparent !important;
 }
 .color_black #tmp_wrap header .logo{
 	border:none  !important;
-	background: url("image/logo.png") no-repeat !important;
+	background: url(../image/logo.png) no-repeat !important;
 }
 .color_black #tmp_wrap header .logo span{
-	background: url("image/logo.png") no-repeat !important;	
+	background: url(../image/logo.png) no-repeat !important;	
 }
 .color_black #tmp_wrap #tmp_lang, 
 .color_black #tmp_wrap #tmp_fsize, 
@@ -638,6 +639,33 @@ tmp_jpskill_box_02 h3.parallax.css_show{
 .color_black #tmp_wrap .ptop{
 	background-color: transparent !important;
 }
-.color_black #tmp_wrap footer{
-	border-top: 2px solid #e4c5c3 !important;
+.color_black #tmp_wrap footer
+{
+	border-top: 10px double #3b0808 !important;
+}
+.color_black main #tmp_about_04 #tmp_jpskill_box_02 .jpskill_box_02_01 ul li,
+.color_black main #tmp_about_04 #tmp_jpskill_box_02 .jpskill_box_02_01 ul li p,
+.color_black main #tmp_about_05 .section_cnt ul li{
+	background-color: transparent !important;
+}
+.color_black #tmp_study_mondaipage_PC h3,
+.color_black #tmp_mondai_page .left_navi ul li a.study-header-list{
+	background-color: #9c1e33 !important;
+}
+.color_black #tmp_study_mondaipage_PC .study_mondaipage_PC_list a{
+	background-color: #ffd0d02b !important;
+}
+.color_black #tmp_study_list li{
+	background-color: transparent !important;
+}
+.color_black p.button_box button{
+	border: 10px solid #3b0808 !important;
+}
+.color_black #tmp_result h2{
+	background-color: #9c1e33 !important;
+}
+
+footer .container ul li a:hover{
+	transform: scale(1.2);
+	transition: all 1s linear;
 }
