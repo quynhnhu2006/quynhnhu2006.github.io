@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width : 480px) {
+
+/* body
+================================================== */
+body {
+	-webkit-text-size-adjust:none;
+	font-size: 87.5%;/*--------14px---------*/
+}
+h2{
+    font-size: 135%;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* wrapper
+================================================== */
+#wrap {
+	min-width:320px;
+	margin:0 !important;
+	overflow: hidden;
+}
+#body_wrap{
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+}
+#body_wrap #wrap_footer h1 {
+    width: 90px;
+    margin: 80px auto 0;
+}
+.header_bar {
+    width: 100%;
+    height: 60px;
+}
+.header_bar h1 a{
+    background: url("images/logo-sp.png")no-repeat center center;
+	background-size: 100% auto;
+	width: 125px;
+	margin: 0 auto;
+}
+.header_copyright {
+    display: none;
+	visibility: hidden;
+}
+.toggle-button {
+    top: 8px;
+	left: 100%;
+	transform: translate(-115%,0);
+}
+#body_wrap #wrap_header #mainvisual #slidecow,
+#body_wrap #wrap_header #mainvisual .hikari{
+	display: none;
+	visibility: hidden;
+}	
+#body_wrap #wrap_header #mainvisual{
+	margin: 0;
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+	min-height: 0;
+	padding: 0;
+}
+#body_wrap #wrap_header #mainvisual #mainvisual_boder {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.slick-slide img{
+		height: auto;
+}
+#body_wrap #wrap_content {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+#body_wrap #wrap_content #nikucafe_ivent img {
+    width: 100%;
+    height: auto;
+}
+#body_wrap #wrap_content #nikucafe_ivent_list {
+    width: 100%;
+    margin: 70px 0 0;
+    padding: 0 10px;
+}
+#body_wrap #wrap_content #nikucafe_ivent_list ul li:nth-child(2n+1),
+#body_wrap #wrap_content #nikucafe_ivent_list ul li:nth-child(2n),
+#body_wrap #wrap_content #nikucafe_ivent_list ul li{
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 0 30px 0;
+}
+#body_wrap #nikucafe_about {
+    width: 100%;
+    padding: 0;
+}
+#body_wrap #meal_bg {
+    height: auto;
+    display: block;
+    width: 100%;
+}
+#body_wrap #nikucafe_about ul#nikucafe_ad li {
+    width: 100%;
+    height: auto;
+    display: block;
+	padding: 30px 20px;
+}
+#body_wrap #niku_course {
+    width: 100%;
+    padding: 0;
+}
+#body_wrap #niku_course .niku_course_wrap .block_visible, #body_wrap #niku_course .niku_course_wrap .block_hidden {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+#body_wrap #niku_course .left{
+	display:flex;
+    flex-flow: column;
+}
+#body_wrap #niku_course .left .block_visible {
+    background-color: #fff;
+    padding: 20px;
+	padding-bottom: 100px;
+}
+#body_wrap #niku_course .left .block_visible{	
+	 order:3;
+}
+#body_wrap #niku_course .left .block_hidden{	
+	 order:2;
+}	
+ul.lunch_list li {
+    width: 100%;
+    border: #c85c4a solid 2px;
+    display: block;
+    margin: 0 0 20px 0;
+}
+#body_wrap #photo_round {
+    padding: 0;
+}
+#body_wrap #map_info {
+    width: 100%;
+    padding: 0 10px;
+}
+#body_wrap #map_info #info #block1, #block2 {
+    width: 100%;
+    display: block;
+}
+#body_wrap #map_info #info #block2 {
+    width: 100%;
+}
+#body_wrap #wrap_footer ul li {
+    display: block;
+    width: 100%;
+	padding: 0;
+}
+#body_wrap #wrap_footer {
+    width: 80%;
+    height: auto;
+    margin: 65px auto 0;
+}
+#body_wrap #map_info #info #block1 img {
+    width: 100%;
+    height: auto;
+}
+#body_wrap #niku_course .block_visible #bottom_BG1,
+#body_wrap #niku_course .block_hidden #bottom_BG2,
+#body_wrap #niku_course .block_visible #bottom_BG3,
+#body_wrap #niku_course .block_hidden #bottom_BG4
+{
+    position: absolute;
+    bottom: 0;
+	left: 50%;
+	transform: translate(-50%,0);
+    background-size: 100% auto;
+	width: 300px;
+    height: 126px;
+	z-index: 101;
+}
+#body_wrap #niku_course .block_hidden #bottom_BG2{
+	bottom: 0;
+	left: 0;
+	transform: none;
+}
+#body_wrap #niku_course .right .block_hidden {
+    padding-bottom: 100px;
+}
+	/*************************lunch***************************/
+#lunch_cnt_wrap {
+    margin-left: 0;
+}
+#body_lunch_wrap #lunch_cnt_wrap ul.wrap_list_cnt {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+#wrap_aside ul {
+    display: flex;
+    margin-left: 0;
+}
+#body_lunch_wrap ul li {
+    width: 100%;
+    display: block;
+}
+#body_lunch_wrap ul li .list_block_wrap img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#menu-sub {
+    width: 100%;
+    margin: 0 auto;
+        margin-bottom: 0px;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+#body_lunch_wrap ul li .list_block_wrap .lunch_menu_block1 ul.set_menu li {
+    padding: 30px;
+}
+#kid-lunch .colum-two {
+    padding: 0;
+}
+#kid-lunch .colum-left {
+    display: block;
+    width: 100%;
+}
+#kid-lunch .colum-right {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+#body_lunch_wrap h2.cow_head {
+    text-align: center;
+    width: 75%;
+    margin: 50px auto;
+    position: relative;
+}
+#kid-lunch h2 img,
+#menu-sub h3 img,
+#kid-lunch .colum-left img,
+#body_lunch_wrap h2.cow_head img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#menu-sub h3 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 85%;
+    margin: 50px auto;
+}
+#body_wrap li.nikucafe_ad_list2 {
+    padding: 30px 20px;
+}
+#body_wrap #niku_course .right .block_hidden {
+    padding: 50px 20px 150px;
+}
+#body_wrap #photo_round_wrap {
+    width: auto;
+    margin: 0 20px;
+}
+#body_wrap #map_info #info #block2 h2{
+	margin: 0 -50px;
+	width: auto;
+}
+#body_wrap #map_info #info #block2 h2 img{
+	width: 80%;
+	height: auto;
+}
+#body_wrap #wrap_footer #footer_button {
+    margin: 50px auto;
+}
+ul li a.after1 {
+    padding: 15px;
+    font-size: 1rem;
+}
+}
