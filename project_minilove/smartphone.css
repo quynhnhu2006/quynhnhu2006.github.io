@@ -301,8 +301,38 @@ ul.lunch_list li {
 #body_wrap #wrap_footer #footer_button {
     margin: 50px auto;
 }
+.table-menu tr th {
+    font-size: 16px;
+}
+.table-menu tr td {
+    text-align: right;
+    font-size: 15px;
+}
+.txtred {
+    color: #c85c4a;
+    font-size: 2.5rem;
+}
+.menu-choice span {
+    font-size: 10pt;
+}
 ul li a.after1 {
     padding: 15px;
     font-size: 1rem;
+}
+#body_wrap #photo_round_wrap img {
+    top: -150px;
+    left: 43px;
+    width: 80%;
+    height: auto;
+}
+#body_wrap #body_lunch_wrap #map_info {
+    width: 100%;
+    padding: 0 10px;
+}
+#body_wrap #wrap_footer #footer_button a {
+    font-size: 1.0rem;
+}
+#body_wrap #wrap_footer #footer_button img {
+    top: 80px;
 }
 }

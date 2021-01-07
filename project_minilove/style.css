@@ -227,11 +227,11 @@ a.header_logo img{
 	width: 750px;
 	height: auto;
 }
-#body_wrap #wrap_header #mainvisual .hikari{
-	position: absolute;
-    top: -67px;
-	left: 246px;
-	z-index: 1999;
+#body_wrap #wrap_header #mainvisual .hikari {
+    position: absolute;
+    top: 137px;
+    left: 460px;
+    z-index: 1999;
 }
 #body_wrap #wrap_header #mainvisual .hikari { 
 animation: inout 3s; 
@@ -321,8 +321,10 @@ margin: auto;
 	width: 100%;
 	height: auto;
 }
-#body_wrap #wrap_content #nikucafe_ivent img{
-	width: 100%;
+#body_wrap #wrap_content #nikucafe_ivent img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 #body_wrap #wrap_content #nikucafe_ivent_list{
 	width:100%;
@@ -666,6 +668,11 @@ ul.lunch_list li{
 	content: "";
 	clear: both;
 }
+#body_lunch_wrap #lunch_cnt_wrap ul.wrap_list_cnt img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
 #body_lunch_wrap ul li{
 	width: 50%;
 	float: left;
@@ -965,6 +972,11 @@ ul.lunch_list li{
 #body_wrap #map_info{
 	width: 100%;
 	padding: 0 70px 0 150px;
+}
+#body_wrap #body_lunch_wrap #map_info{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
 }
 #body_wrap #map_info #info{
 	margin: 70px 0 0;
