@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media screen and (max-width : 480px) {
+@media screen and (max-width : 768px) {
 
 /* body
 ================================================== */
@@ -81,6 +81,9 @@ h2{
     height: auto;
     margin: 0 auto;
 }
+#body_wrap #niku_course .niku_course_wrap {
+    height: auto;
+}
 #body_wrap #wrap_content #nikucafe_ivent {
     margin: 30px 0 0;
 }
@@ -124,12 +127,14 @@ h2{
 #body_wrap #niku_course .niku_course_wrap .block_visible, #body_wrap #niku_course .niku_course_wrap .block_hidden {
     width: 100%;
     height: auto;
+	min-height: 300px;
     display: block;
     position: relative;
 }
 #body_wrap #niku_course .left{
 	display:flex;
     flex-flow: column;
+	height: auto;
 }
 #body_wrap #niku_course .left .block_visible {
     background-color: #fff;
@@ -149,6 +154,7 @@ ul.lunch_list li {
 }
 #body_wrap #photo_round {
     padding: 0;
+	margin: 150px 0 50px;
 }
 #body_wrap #map_info {
     width: 100%;
@@ -164,8 +170,15 @@ ul.lunch_list li {
 #body_wrap #wrap_footer ul li {
     display: block;
     width: 100%;
-	padding: 0;
 }
+#body_wrap #wrap_footer ul li a{
+	padding: 0 0 10px;
+}
+#body_wrap #wrap_footer ul li a img{
+	width: 100%;
+	height: auto;
+}	
+
 #body_wrap #wrap_footer {
     width: 80%;
     height: auto;
@@ -233,8 +246,9 @@ ul.lunch_list li {
     display: block;
 }
 #body_lunch_wrap ul li .list_block_wrap img{
-	display: block;
-	width: 100%;
+	top: -100px;
+	left: 43px;
+	width: 60%;
 	height: auto;
 }
 #menu-sub {
@@ -243,6 +257,9 @@ ul.lunch_list li {
         margin-bottom: 0px;
     margin-bottom: 50px;
     padding: 0 20px;
+}
+.nav-active ul {
+	padding: 28px 0;
 }
 #body_lunch_wrap ul li .list_block_wrap .lunch_menu_block1 ul.set_menu li {
     padding: 30px;
@@ -320,10 +337,11 @@ ul li a.after1 {
     font-size: 1rem;
 }
 #body_wrap #photo_round_wrap img {
-    top: -150px;
-    left: 43px;
-    width: 80%;
+    top: 50%;
+    left: 50%;
+    width: 60%;
     height: auto;
+    transform: translate(-50%,-50%);
 }
 #body_wrap #body_lunch_wrap #map_info {
     width: 100%;
@@ -332,7 +350,15 @@ ul li a.after1 {
 #body_wrap #wrap_footer #footer_button a{
     font-size: 1.0rem;
 }
-#body_wrap #wrap_footer #footer_button img{
+#body_wrap #wrap_footer #footer_button img {
     top: 80px;
+    width: 100px;
+    height: auto;
+}
+#body_wrap #wrap_footer ul li:nth-child(2n) a{
+	padding-left: 0;
+}
+#body_wrap #wrap_footer ul li:nth-child(2n+1) a{
+	padding-right: 0;
 }
 }

@@ -102,6 +102,9 @@ a.header_logo img{
 	transform: scaleX(0.5);
 	transition: all .1s ease-in;
 }
+.toggle-active .toggle-button top{
+	transform: rotateY(180deg);
+}
 .bar{
 	background-color: #fff;
     display: block;
@@ -112,16 +115,28 @@ a.header_logo img{
 }
 
 .toggle-active .top{
-	/*transform: translateY(-2px);*/
+	transform: rotate(-45deg) translateY(6px);
 	transition: all .1s ease-in;
 }
 .toggle-active .bottom{
-	/*transform: translateY(2px);*/
+	transform: rotate(45deg) translateY(-6px);
 	transition: all .1s ease-in;
 }
 .toggle-active .medium{
-	/*transform: scaleX(0.5);*/
+	display: none;
+	visibility: hidden;
+}
+.toggle-active:hover .top{
+	transform: rotate(-45deg) translateY(6px) scale(1.3);
 	transition: all .1s ease-in;
+}
+.toggle-active:hover .bottom{
+	transform: rotate(45deg) translateY(-6px) scale(1.3);
+	transition: all .1s ease-in;
+}
+.toggle-active:hover .medium{
+	display: none;
+	visibility: hidden;
 }
 /**********************************overlay*********************************************************************/
 .overlay {
@@ -168,9 +183,7 @@ a.header_logo img{
 .nav-active ul {
     display: block;
     position: relative;
-	padding: 0;
-    top: 60px;
-    left: 0;
+	padding: 125px 0;
     text-align: center;
     list-style: none;
     border: 0;
@@ -520,7 +533,6 @@ a.header_logo img{
     height: 600px;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 #body_wrap #niku_course .niku_course_wrap:after{
 	display: block;
@@ -586,13 +598,17 @@ a.header_logo img{
 	background-color: #fff;
 	padding: 50px;
 }
-.block_hidden img{
-    width: 100%;
-	display: block;
+.niku_course_wrap:first-child .block_hidden{
+    background: url("images/home-menu_02.jpg") no-repeat top center/cover;
 }
-.block_visible img{
-	display: block;
-	width: 100%;
+.niku_course_wrap:nth-child(2) .block_visible{
+	background: url("images/home-menu_03.jpg") no-repeat top center/cover;
+}
+.niku_course_wrap:nth-child(3) .block_hidden{
+    background: url("images/home-menu_04.jpg") no-repeat top center/cover;
+}
+.niku_course_wrap:last-child .block_visible{
+    background: url("images/home-menu_01.jpg") no-repeat top center/cover;
 }
 .txtred{
 	color: #c85c4a;
@@ -611,7 +627,6 @@ a.header_logo img{
 }
 ul.lunch_list{
 	padding: 0;
-	width: 100%;
 	margin: 20px -5px;
 }
 ul.lunch_list:after{
@@ -678,8 +693,10 @@ ul.lunch_list li{
 }
 #body_lunch_wrap ul li{
 	width: 50%;
-	float: left;
-	
+	float: left;	
+}
+#body_lunch_wrap ul li:nth-child(2n+1){
+	clear: both;
 }
 #body_lunch_wrap ul li .list_block_wrap{
 	margin: 10px;
@@ -1044,20 +1061,23 @@ ul.lunch_list li{
 #body_wrap #wrap_footer ul li{
 	float: left;
 	width: 50%;
-	padding: 0 10px 10px 0;
 }
-#body_wrap #wrap_footer ul li:nth-child(2n){
-	padding-right: 0;
-}
-#body_wrap #wrap_footer ul li:nth-child(3){
-	padding-bottom: 0;
-}
-#body_wrap #wrap_footer ul li:nth-child(4){
-	padding-bottom: 0;
-}
-#body_wrap #wrap_footer ul li img{
+#body_wrap #wrap_footer ul li a{
 	display: block;
 	width: 100%;
+	height: auto;
+	padding: 0 0 10px 0;
+}
+#body_wrap #wrap_footer ul li:nth-child(2n) a{
+	padding-left: 5px;
+}
+#body_wrap #wrap_footer ul li:nth-child(2n+1) a{
+	padding-right: 5px;
+}
+#body_wrap #wrap_footer ul li a img{
+	display: block;
+	width: 100%;
+	height: auto;
 }
 /**************************************footer_button****************************************/
 #body_wrap #wrap_footer #footer_button{
@@ -1092,4 +1112,40 @@ ul.lunch_list li{
 #body_wrap #wrap_footer h1{
 	width: 15%;
 	margin: 120px auto 0;
+}
+@media screen and (min-width : 1024px) and (max-width : 1240px) {
+#wrap{
+	min-width: 1024px;
+}
+#body_wrap #niku_course .block_hidden.bottom_BG2::after {
+    width: 470px;
+    height: 198px;
+}
+#body_wrap #niku_course .block_hidden.bottom_BG4::after {
+    width: 500px;
+    height: 250px;
+}
+#body_wrap #photo_round_wrap img {
+    top: -160px;
+    width: 80%;
+    height: auto;
+}
+#body_wrap #niku_course .block_visible #bottom_BG3 {
+    bottom: -20px;
+    width: 450px;
+    height: 163px;
+    z-index: 10;
+}
+#body_wrap #niku_course .block_visible #bottom_BG1 {
+    bottom: -50px;
+    width: 400px;
+    height: 175px;
+}
+ul.lunch_list a {
+    font-size: 1.2rem;
+}
+#body_wrap #map_info #info #block2 h2 a img{
+    width: 100%;
+    height: auto;
+}
 }
