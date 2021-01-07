@@ -223,22 +223,24 @@ a.header_logo img{
 	z-index: 2000;
 	transform: translate(-50%,-50%);
 }
+#body_wrap #wrap_header #mainvisual #slidecow::after{
+	background: url("images/hikari.png") no-repeat center center;
+	content: "";
+	width: 700px;
+	height: 503px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+	animation: inout  3s; 
+	animation-iteration-count: infinite;
+	margin: auto;
+	
+}
 #body_wrap #wrap_header #mainvisual #slidecow img{
-	width: 750px;
+	width: 100%;
 	height: auto;
 }
-#body_wrap #wrap_header #mainvisual .hikari {
-    position: absolute;
-    top: 137px;
-    left: 460px;
-    z-index: 1999;
-}
-#body_wrap #wrap_header #mainvisual .hikari { 
-animation: inout 3s; 
-animation-iteration-count: infinite;
-margin: auto;
-	
-} 
 @keyframes inout { 
 0%   { transform: scale(0, 0); } 
 25%   { transform: scale(1.1, 1.1); } 
@@ -513,11 +515,12 @@ margin: auto;
 	width: 100%;
 	padding: 0 0 0 80px;
 }
-#body_wrap #niku_course .niku_course_wrap{
-	width: 100%;
-	height: auto;
-	margin: 0;
-	padding: 0
+#body_wrap #niku_course .niku_course_wrap {
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 #body_wrap #niku_course .niku_course_wrap:after{
 	display: block;
@@ -562,7 +565,7 @@ margin: auto;
 	position: absolute;
 	bottom: -100px;
 	left: 0;
-background: url("images/home-menu_01_kids.png")no-repeat 0 bottom;
+	background: url("images/home-menu_01_kids.png")no-repeat 0 bottom;
 	background-size: cover;
 	width: 553px;
 	height: 276px;
@@ -584,12 +587,12 @@ background: url("images/home-menu_01_kids.png")no-repeat 0 bottom;
 	padding: 50px;
 }
 .block_hidden img{
-    width: auto;
-    height: 100%;
+    width: 100%;
+	display: block;
 }
 .block_visible img{
-	width: auto;
-    height: 100%;
+	display: block;
+	width: 100%;
 }
 .txtred{
 	color: #c85c4a;
@@ -1053,8 +1056,8 @@ ul.lunch_list li{
 	padding-bottom: 0;
 }
 #body_wrap #wrap_footer ul li img{
+	display: block;
 	width: 100%;
-	height: auto;
 }
 /**************************************footer_button****************************************/
 #body_wrap #wrap_footer #footer_button{
