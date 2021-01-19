@@ -1,5 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
+@font-face {
+font-family:mplus-1p-light;
+src:url("mplus-1p-light.ttf") format("truetype")
+}
 *{
 	box-sizing: border-box;
 	color: #000000;
