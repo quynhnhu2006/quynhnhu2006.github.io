@@ -171,27 +171,21 @@ main{
 	font-size: 14px;
 }
 input::-webkit-input-placeholder { 
-    border: 1px solid #D3B49A;
 	background: #FCF9F0;
 }
 input:-moz-placeholder { 
-    border: 1px solid #D3B49A;
 	background: #FCF9F0;
 }
 input::-moz-placeholder { 
-	border: 1px solid #D3B49A;
 	background: #FCF9F0;
 }
 input:-ms-input-placeholder { 
-    border: 1px solid #D3B49A;
 	background: #FCF9F0;
 }
 input::-ms-input-placeholder { 
-    border: 1px solid #D3B49A;
 	background: #FCF9F0;
 }
 input::placeholder { 
-    border: 1px solid #D3B49A;
 	background: #FCF9F0;
 }
 #mail input[type=submit] {
@@ -206,7 +200,6 @@ input::placeholder {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-
 }
 p.mail_submit {
 	padding: 0 15%;
