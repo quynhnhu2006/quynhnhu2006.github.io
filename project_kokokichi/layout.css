@@ -170,24 +170,6 @@ main{
 	background: #FCF9F0;
 	font-size: 14px;
 }
-input::-webkit-input-placeholder { 
-	background: #FCF9F0;
-}
-input:-moz-placeholder { 
-	background: #FCF9F0;
-}
-input::-moz-placeholder { 
-	background: #FCF9F0;
-}
-input:-ms-input-placeholder { 
-	background: #FCF9F0;
-}
-input::-ms-input-placeholder { 
-	background: #FCF9F0;
-}
-input::placeholder { 
-	background: #FCF9F0;
-}
 #mail input[type=submit] {
 	width: 100%;
 	background-color: #D80E00;
