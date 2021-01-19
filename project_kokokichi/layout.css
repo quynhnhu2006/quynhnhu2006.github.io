@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+	color: #000000;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+blockquote,
+form,
+input,
+fieldset,
+legend {
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+	color: #0168CC;
+}
+#tmp_wrap{
+	max-width: 375px;
+	width: 100%;
+	margin: 0 auto;
+	font-family: Mplus;
+}
+.container{
+	margin: 0 auto;
+	font-size: 12px;
+}
+/*               最初の画面
+================================================== */
+#firstscreen_logo{
+	padding: 90px 22.5px 0;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	margin-bottom: 60px;
+}
+#firstscreen_logo .fscreen_logo {
+	margin-bottom: 16px;
+}
+#firstscreen_btn{
+	text-align: center;
+	margin-bottom: 30px;
+}
+#firstscreen_btn .fscreen_btn.user a{
+	display: block;
+	border-radius: 20px;
+	border: 2px solid #D80E00;
+	margin-bottom: 30px;
+	padding: 6px;
+	font-size: 15px;
+	color: #D80E00;
+}
+#firstscreen_btn .fscreen_btn.user a span{
+	display: inline-block;
+	background: url("../img/user_btn.png")no-repeat left 3px;
+	background-size: auto 15px;
+	padding-left: 20px;
+}
+#firstscreen_btn .fscreen_btn.ad a{
+	display: block;
+	border-radius: 20px;
+    border: 2px solid #336E00;
+	font-size: 14px;
+	color: #336E00;
+	padding: 6px;
+}
+#firstscreen_btn .fscreen_btn.ad a span{
+	display: inline-block;
+	background: url("../img/ad_btn.png")no-repeat left 3px;
+	background-size: auto 15px;
+	padding-left: 28px;
+}
+.newmenber{
+	text-align: center;
+	color: #0168CC;
+	font-size: 12px;
+}
+/*               ユーザーログイン画面
+================================================== */
+header #header_cnt {
+    text-align: center;
+	margin-bottom: 26px;
+	padding: 8px 0 0;
+}
+header #header_cnt .header_logo {
+    width: 80px;
+    margin: 0 auto 8px;
+}
+header #header_cnt .header_txt {
+    padding: 6px 0 7px;
+	font-size: 14px;
+	border-top: #EB3300 solid 1px;
+    border-bottom: #EB3300 solid 1px;
+}
+header #header_cnt .header_txt a {
+    color: #000;
+}
+/*   main
+----------------------------------- */
+main{
+	padding-bottom:297px;
+	width: 85%;
+	margin: 0 auto;
+}
+/*   ソーシャルアカウントでログイン
+----------------------------------- */
+#sns{
+	margin-bottom: 30px;
+}
+#sns .sns_title{
+	background: url("../img/sns_logo.png")no-repeat 0 2px;
+    background-size: 14px auto;
+    padding-left:22px;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+#sns .sns_cnt{
+	width: 100%;
+	margin: 0 auto;
+}
+#sns .sns_cnt ul{
+	margin: 0 -15px;
+	display: flex;
+}
+#sns .sns_cnt ul li{
+	width: 25%;
+	padding:0 15px;
+}
+#sns .sns_cnt ul li a{
+	display: block;
+}
+/*   メールアドレスでログイン
+----------------------------------- */
+#mail .mail_title{
+	background: url("../img/mail_logo.png")no-repeat 0px 2px;
+    background-size: 17px auto;
+    padding-left:22px;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+#mail input[type=text]{
+	width: 100%;
+	padding: 9px 10px;
+	margin: 0 0 10px;
+	display: inline-block;
+	border: 1px solid #D3B49A;
+	border-radius: 6px;
+	background: #FCF9F0;
+	font-size: 14px;
+}
+#mail input[type=submit] {
+	width: 100%;
+	background-color: #D80E00;
+	color: white;
+	padding: 7px 0;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 14px;
+}
+p.mail_submit {
+	padding: 0 15%;
+    margin: 4px 0 33px;
+}
+#mail .mail_cnt ul{
+	text-align: center;
+	margin-bottom: 50px;
+}
+#mail .mail_cnt ul li{
+	font-size: 12px;
+	display: inline-block;
+	padding-right: 5px;
+}
+#mail .mail_cnt ul li:nth-child(2n){
+	padding-right: 0;
+}
+/*               バナー
+================================================== */
+#banner p a {
+	color: #000;
+	display: block;
+	text-align: center;
+	background: #E9E9E9;
+	padding: 16px 0;
+	border-radius: 6px;
+}
