@@ -169,6 +169,9 @@ main{
 	border-radius: 6px;
 	background: #FCF9F0;
 	font-size: 14px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 #mail input[type=submit] {
 	width: 100%;
