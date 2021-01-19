@@ -74,20 +74,20 @@ a{
 	margin-bottom: 30px;
 	padding: 6px;
 	font-size: 15px;
-	color: #D80E00;
 }
 #firstscreen_btn .fscreen_btn.user a span{
 	display: inline-block;
 	background: url("../img/user_btn.png")no-repeat left 3px;
 	background-size: auto 15px;
 	padding-left: 20px;
+	color: #D80E00;
+	font-family: 'mplus-1p-light' , sans-serif;
 }
 #firstscreen_btn .fscreen_btn.ad a{
 	display: block;
 	border-radius: 20px;
     border: 2px solid #336E00;
 	font-size: 14px;
-	color: #336E00;
 	padding: 6px;
 }
 #firstscreen_btn .fscreen_btn.ad a span{
@@ -95,6 +95,8 @@ a{
 	background: url("../img/ad_btn.png")no-repeat left 3px;
 	background-size: auto 15px;
 	padding-left: 28px;
+	color: #336E00;
+	font-family: 'mplus-1p-light' , sans-serif;
 }
 .newmenber{
 	text-align: center;
