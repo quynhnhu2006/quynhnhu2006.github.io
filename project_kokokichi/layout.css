@@ -160,7 +160,12 @@ main{
     margin-bottom: 12px;
     font-size: 12px;
 }
-#mail input[type=text]{
+#mail input[type=text],
+#mail input[type=text]::-webkit-input-placeholder,
+#mail input[type=text]::-moz-placeholder,
+#mail input[type=text]:-ms-input-placeholder,
+#mail input[type=text]:-moz-placeholder
+{
 	width: 100%;
 	padding: 9px 10px;
 	margin: 0 0 10px;
@@ -169,9 +174,6 @@ main{
 	border-radius: 6px;
 	background: #FCF9F0;
 	font-size: 14px;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
 }
 #mail input[type=submit] {
 	width: 100%;
