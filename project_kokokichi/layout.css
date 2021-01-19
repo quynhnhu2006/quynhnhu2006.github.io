@@ -182,8 +182,7 @@ main{
 	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
 }
 ::-webkit-input-placeholder { 
-    border: 1px solid #D3B49A;
-	background: #FCF9F0;
+	background: #FFF;
 }
 #mail input[type=submit] {
 	width: 100%;
