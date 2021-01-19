@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+/* Firefox, Opera, Safari */
 @font-face {
 font-family:mplus-1p-light;
 src:url("mplus-1p-light.ttf") format("truetype")
@@ -46,7 +47,6 @@ a{
 	max-width: 375px;
 	width: 100%;
 	margin: 0 auto;
-	font-family: Mplus;
 }
 .container{
 	margin: 0 auto;
