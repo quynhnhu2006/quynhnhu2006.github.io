@@ -180,10 +180,11 @@ main{
 	background: #FCF9F0;
 	font-size: 14px;
 	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
+	color: #D3B49A;
 }
-::-webkit-input-placeholder { 
-	background: #FFF;
-}
+#mail input[type=text]::-webkit-input-placeholder { 
+    color: #D3B49A;
+ }
 #mail input[type=submit] {
 	width: 100%;
 	background-color: #D80E00;
