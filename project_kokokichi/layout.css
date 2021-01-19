@@ -212,6 +212,9 @@ p.mail_submit {
 #mail .mail_cnt ul li:nth-child(2n){
 	padding-right: 0;
 }
+#mail .mail_cnt ul li p a{
+	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
+}
 /*               バナー
 ================================================== */
 #banner p a {
