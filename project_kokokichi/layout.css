@@ -123,6 +123,7 @@ header #header_cnt .header_txt {
 }
 header #header_cnt .header_txt a {
     color: #000;
+	font-family: 'mplus-1p-light' , sans-serif;
 }
 /*   main
 ----------------------------------- */
@@ -142,6 +143,7 @@ main{
     padding-left:22px;
     margin-bottom: 12px;
     font-size: 12px;
+	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
 }
 #sns .sns_cnt{
 	width: 100%;
@@ -166,6 +168,7 @@ main{
     padding-left:22px;
     margin-bottom: 12px;
     font-size: 12px;
+	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
 }
 #mail input[type=text]{
 	width: 100%;
@@ -176,6 +179,7 @@ main{
 	border-radius: 6px;
 	background: #FCF9F0;
 	font-size: 14px;
+	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
 }
 #mail input[type=submit] {
 	width: 100%;
@@ -189,10 +193,12 @@ main{
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
+	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
 }
 p.mail_submit {
 	padding: 0 15%;
     margin: 4px 0 33px;
+	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
 }
 #mail .mail_cnt ul{
 	text-align: center;
@@ -215,4 +221,5 @@ p.mail_submit {
 	background: #E9E9E9;
 	padding: 16px 0;
 	border-radius: 6px;
+	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
 }
