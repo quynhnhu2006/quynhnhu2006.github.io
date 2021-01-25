@@ -279,9 +279,10 @@ label[for="fwriteagain"] {
     padding: 6px 25px 6px 6px;
     border-radius: 15px;
 	border: 1px solid #E86200;
-    background: #E86200 url(../img/acc_logo.png)no-repeat 90% center;
+    background: #E86200 url("images/acc_logo.png")no-repeat 90% center;
     background-size: 8px auto;
     display: block;
+	font-family: 'Hiragino Sans' , sans-serif;
 }
 #section_default .accordion_area {
     margin-right: 5px;
@@ -297,6 +298,7 @@ label[for="fwriteagain"] {
     display: block;
 	background: none;
 	background-color: #fff; 
+	font-family: 'Hiragino Sans' , sans-serif;
 }
 /*   map
 ----------------------------------- */
@@ -340,7 +342,7 @@ label[for="fwriteagain"] {
 	padding: 10px 0px 10px 5px;
 }
 #section_default .shop_info_ttl h2 p{
-	background: url("../img/shop.png")no-repeat left center;
+	background: url("images/shop.png")no-repeat left center;
 	background-size: 25px auto;
 	padding-left: 30px;
 	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
@@ -380,7 +382,7 @@ p.shop_info_sum{
 	padding-right: 3px;
 }
 #section_default .shop_rank_comment{
-	background: url("../img/comment.png")no-repeat center left;
+	background: url("images/comment.png")no-repeat center left;
 	background-size: 20px auto; 
 	padding-left: 25px;
 }
