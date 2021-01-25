@@ -413,8 +413,15 @@ p.shop_info_sum{
 	color: #0168CC;
 	margin-bottom: 10px;
 }
+/*   footer
+----------------------------------- */
+footer{
+		background-color: #FAEEE5;
+}
 footer .footer_menu{
-	background-color: #FAEEE5;
+
+	max-width: 375px;
+	margin: 0 auto;
 }
 footer .footer_menu ul{
 	display:flex;
