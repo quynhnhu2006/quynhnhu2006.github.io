@@ -44,7 +44,6 @@ a{
 	color: #0168CC;
 }
 #tmp_wrap{
-	max-width: 375px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -112,13 +111,12 @@ header #header_cnt {
 	padding: 8px 0 0;
 }
 header #header_cnt .header_logo {
-    width: 80px;
-    margin: 0 auto 8px;
+	padding: 0 0 8px;
+    border-bottom: #EB3300 solid 1px;
 }
 header #header_cnt .header_txt {
     padding: 6px 0 7px;
 	font-size: 14px;
-	border-top: #EB3300 solid 1px;
     border-bottom: #EB3300 solid 1px;
 }
 header #header_cnt .header_txt a {
@@ -130,6 +128,7 @@ header #header_cnt .header_txt a {
 main{
 	padding-bottom:297px;
 	width: 85%;
+	max-width: 375px;
 	margin: 0 auto;
 }
 /*   ソーシャルアカウントでログイン
@@ -179,8 +178,8 @@ main{
 	border-radius: 6px;
 	background: #FCF9F0;
 	font-size: 14px;
-	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
 	color: #D3B49A;
+	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
 }
 #mail input[type=text]::-webkit-input-placeholder { 
     color: #D3B49A;
@@ -229,4 +228,217 @@ p.mail_submit {
 	padding: 16px 0;
 	border-radius: 6px;
 	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
+}
+/*              ユーザー新規登録
+================================================== */
+#mail .mail_info form{
+	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
+}
+#mail .mail_info .mail_title.info{
+	background: url("../img/sign_logo.png")no-repeat 0px 2px;
+    background-size: 17px auto;
+	margin-bottom: 14px;
+	font-size: 12px;
+}
+h2 p.user_info {
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	margin-bottom: 19px;
+	font-weight: 500;
+	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
+	border-bottom: 1px solid #D58083;
+}
+#mail .mail_info form .fullname{
+	display: flex;
+}
+#mail .mail_info form .fullname input[type=text]{
+	width: 48%;
+	margin-right: 4%;
+}
+#mail .mail_info form .fullname input[type=text]:last-child{
+	width: 48%;
+	margin-right: 0;
+}
+label[for="fwriteagain"] {
+    font-size: 10px;
+}
+
+/*              デフォルト画面
+================================================== */
+#section_default header #header_cnt {
+	margin-bottom: 12px;
+}
+#section_default .btn_acc {
+    display: flex;
+    margin: 12px 0;
+	padding-left: 30px;
+}
+#section_default .accordion_area a.accordion_switch {
+    color: #fff;
+    padding: 6px;
+    border-radius: 15px;
+    background: #E86200 url(../img/acc_logo.png)no-repeat 90% center;
+    background-size: 8px auto;
+    display: block;
+    width: 90px;
+}
+#section_default .accordion_area {
+    margin-right: 5px;
+}
+#section_default .accordion_area:last-child {
+    margin-right: 0;
+}
+#section_default .accordion_area.btn_genre a{
+ 	color: #000;
+    padding: 6px;
+    border-radius: 15px;
+	border: 1px solid #E5E5E5;
+    display: block;
+    width: 90px;
+	background: none;
+	background-color: #fff; 
+}
+/*   map
+----------------------------------- */
+#section_default .gmap  {
+    margin-bottom: 8px;
+}
+#section_default .gmap p {
+    margin-bottom: 6px;
+}
+#section_default .gmap p.scroll {
+    background-color: #D2D2D2;
+	width: 35px;
+	height: 5px;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+/*   shop
+----------------------------------- */
+#section_default main{padding-bottom: 0}
+#section_default .wrap_shop{
+	padding: 0 30px;
+	margin-bottom: 20px;
+}
+#section_default .wrap_shop .search_shop{
+	border-top: 1px solid #D58083;
+	border-bottom: 1px solid #D58083;
+}
+
+#section_default .search_shop .shop_info{
+	border-top: none;
+	border-bottom: 1px solid #D58083;
+}
+#section_default .search_shop .shop_info.noborder_bottom{
+	border-top: none;
+	border-bottom: none;
+}
+.shop_info_ttl {
+    margin-bottom: 10px;
+}
+#section_default .shop_info_ttl h2{
+	padding: 10px 0px 10px 5px;
+}
+#section_default .shop_info_ttl h2 p{
+	background: url("../img/shop.png")no-repeat left center;
+	background-size: 25px auto;
+	padding-left: 30px;
+	font-family: 'Hiragino Maru Gothic ProN' , sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+}
+#section_default .shop_info_ttl p.shop_info_des{
+	font-family: 'Hiragino Sans' , sans-serif;
+	color: #CBCBCD;
+	font-size: 10px;
+}
+#section_default p.search_results {
+    margin-bottom: 10px;
+}
+#section_default .shop_info_img{
+	margin: 0 -30px 10px -30px ;
+}
+p.shop_info_sum{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 10px;
+	font-family: 'Hiragino Sans' , sans-serif;
+}
+#section_default .search_shop .shop_info ul{
+	display: flex;
+}
+#section_default .search_shop .shop_info ul li{
+	width: 33.3%;
+}
+#section_default .shop_info_rank .shop_rank_start ul{
+    display: block;
+    display: flex;
+	padding-right: 5px;
+}
+#section_default .shop_info_rank .shop_rank_start ul li {
+	width: 20%;
+	padding-right: 3px;
+}
+#section_default .shop_rank_comment{
+	background: url("../img/comment.png")no-repeat center left;
+	background-size: 20px auto; 
+	padding-left: 25px;
+}
+#section_default .shop_info_rank{
+    padding-right: 70px;
+	display: flex;
+	margin-bottom: 10px;
+}
+#section_default .shop_info_rank::after{
+    display: block;
+	content: "";
+	clear: both;
+}
+#section_default .shop_info_rank .shop_rank_start{
+    display: flex;
+	padding-right: 10px;
+}
+#section_default .shop_info_rank .shop_rank_comment{
+	display: block;
+}
+
+#section_default p.price{
+	margin-bottom: 18px;
+}
+#section_default .search_shop p.seemore{
+	font-size: 10px;
+	font-family: 'Hiragino Sans' , sans-serif;
+	text-align: center;
+	color: #0168CC;
+	margin-bottom: 10px;
+}
+footer .footer_menu{
+	background-color: #FAEEE5;
+}
+footer .footer_menu ul{
+	display:flex;
+	padding: 13px 30px 5px;
+}
+footer .footer_menu li{
+	width: 25%;
+	text-align: center;
+}
+footer .footer_menu li a{
+    height: auto;
+    display: block;
+}
+footer .footer_menu li a img{
+    width: 18px;
+	height: auto;
+}
+footer .footer_menu li:first-child{
+	padding-left: 0;
+}
+footer .footer_menu li a p{
+	font-size: 12px;
+	font-family: 'Hiragino Sans' , sans-serif;
+	color: #E86200;
+	padding-top: 3px;
+	font-weight: 500;
 }
