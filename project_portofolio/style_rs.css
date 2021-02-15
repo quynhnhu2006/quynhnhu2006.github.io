@@ -19,7 +19,7 @@ p {
 #tmp_menu {
 	padding: 15px 0;
 }
-#tmp_body #tmp_menu h1 img{
+h1 img{
     display: block;
     width: 40px;
     height: auto;
