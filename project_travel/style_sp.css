@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width : 480px) {
+
+/* body
+================================================== */
+body {
+	-webkit-text-size-adjust:none;
+	font-size: 87.5%;/*--------14px---------*/
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+}
+/* wrapper
+================================================== */
+#tmp_wrap_body {
+	width:100%;
+	min-width:320px;
+	margin:0 !important;
+	overflow: hidden;
+}
+#tmp_contain .wrap_box {
+    margin-bottom: 45px;
+}
+#tmp_contain .wrap_box.swift {
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+#tmp_contain {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+}
+#tmp_contain #tmp_item_0{
+    margin-bottom: 120px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+span{
+	font-size: 10pt;
+	line-height: 15px;
+}
+header #tmp_wrap_header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+}
+header #tmp_wrap_header .logo {
+    width: 100%;
+    height: auto;
+}
+header #tmp_wrap_header .menu {
+    width: 100%;
+    height: auto;
+}
+header #tmp_wrap_header .menu ul {
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header #tmp_wrap_header .menu ul li {
+    padding: 0 ;
+}
+header #tmp_wrap_header .menu ul li a {
+    font-size: 100%;/*--------14/14*100%----------*/
+}
+.mainvisual {
+	padding-top: 112%;
+	height: 0;
+	display: block;
+}
+.cate_ttl {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#tmp_contain #tmp_item_0,
+#tmp_contain #tmp_item_1,
+#tmp_contain #tmp_item_2,
+#tmp_contain #tmp_item_3
+ {
+    display: flex;
+    flex-wrap: wrap;
+}
+#tmp_contain #tmp_item_0 .about_txt
+ {
+    width: 100%;
+    height: auto;
+    padding:0;
+}
+#tmp_contain #tmp_item_0 .about_img {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#tmp_contain #tmp_item_0 .about_img .about_box_img.box_img3 {
+    position: absolute;
+    top: 80%;
+    left: 55%;
+}
+#tmp_contain .wrap_box .box_txt {
+    width: 100%;
+    padding: 0;
+}
+#tmp_contain .wrap_box .box_txt::before {
+    top: 0;
+    left: 0;
+}
+#tmp_contain .wrap_box .box_txt::after {
+    top: -40px;
+    left: 30px;
+}
+#tmp_contain .wrap_box .box_txt.swift::before {
+    top: 0;
+    right: 0;
+}
+#tmp_contain .wrap_box .box_txt.swift::after {
+    top: -40px;
+    right: 30px;
+}
+#tmp_contain .wrap_box .box_img {
+    width: 100%;
+}
+.wrap_box .box_img_around ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 ;
+}
+.sub_navi  {
+    display: none;
+}
+/*------------------------grid_responsive-------------------------------------*/
+#tmp_item_3 h2{
+    width: 100%;
+}
+#tmp_item_3 .grid_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    column-gap: auto;
+    grid-row-gap: auto;
+}
+#tmp_item_3 .grid_container img{
+    vertical-align: top;
+}
+.grid_container .item_01{
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+}
+.grid_container .item_02{
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+}
+.grid_container .item_03{
+    position: relative;
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+.grid_container .item_04{
+    position: relative;
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+.grid_container .item_05{
+    position: relative;
+    grid-column: 1;
+    grid-row: 6;
+}
+.grid_container .item_06{
+    position: relative;
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.grid_container .item_03 iframe{
+   width: 100%;
+   height: auto;
+   vertical-align: top;
+}
+/*----------------FOOTER---------------*/
+#tmp_footer {
+    padding: 0 10px;
+    font-size: 75%;
+}
+#tmp_footer .container {
+    width: 100%;
+}
+#tmp_footer .footer_name h3 p {
+    margin: 20px auto;
+    width: 150px;
+}
+#tmp_footer .footer_sns .footer_sns_txt {
+    padding: 8px;
+    word-wrap: break-word;
+}
+#tmp_footer .footer_sns .footer_sns_icon {
+    padding: 10px;
+}
+#tmp_footer .footer_sns .footer_sns_icon ul {
+    margin: 0;
+    padding: 0;
+}
+#tmp_footer .footer_sns ul li {
+    padding: 0;
+}
+
+#tmp_footer .footer_sns_icon ul li a img {
+    width:80%;
+}
+#tmp_footer p.footer_copy {
+    width: 180px;
+}
+/*--------------------------------------------------hien ra sau khi vo hieu hoa parallax------------------------------------------------------------*/
+.about_box_img img{
+	opacity: 1;
+}
+
+h2{
+	transform: translateX(0);
+	opacity:1;
+}
+span{
+	transform: translateX(0);
+	opacity: 1;
+}
+
+
+}
