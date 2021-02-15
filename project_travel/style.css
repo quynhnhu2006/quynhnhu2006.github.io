@@ -97,7 +97,7 @@ header #tmp_wrap_header .menu ul li a:hover::before{
 .mainvisual{
 	position: relative;
 	height: 900px;
-	background: url("images/chuacau.jpg")no-repeat center center;
+	background: url("images/mainvs.jpg")no-repeat center center;
 	background-size: 100% auto;
 }
 /*=====================animation_load
