@@ -34,8 +34,10 @@ span.sm_txt{
 /*=============================#tmp_introduce=========================*/
 #tmp_introduce .block_ttl h2{
     background: url("images/introduce_h2_sm.png")no-repeat center center;
-        background-size: auto;
-    background-size: 85% auto;
+    padding-bottom: 59%;
+	width: auto;
+	height: 0;
+	background-size: 100% auto;
 }
 #tmp_introduce .block_ttl{
     padding: 0px 15px;
@@ -145,9 +147,7 @@ span.sm_img{
     padding: 10px 10px;
 }
 #tmp_target .wrap_target_block1{
-	margin-bottom: 50px;
-    width: 100%;
-	padding: 35px 15px;
+	padding: 75px 15px;
 }
 #tmp_target .wrap_target_block1 .block_cnt .target_point_list ul{
 	display: block;
@@ -334,13 +334,13 @@ line-height: 25px;
     color: #DC6A86;
     font-weight: 900;
 }
-.schedule_info p:nth-child(5){
+.schedule_info p:nth-child(4){
     text-align: center;
 	font-size: 15pt;
     color: #000;
     font-weight: 900;
 }
-.schedule_info p:nth-child(4){
+.schedule_info p:nth-child(5){
 	visibility: hidden;
 	display: none;
 }
@@ -353,18 +353,17 @@ span.sm_txt{
 	padding: 15px 0 10px;
 }
 .schedule_block::before {
-    position: absolute;
-    content: "";
-    width: 220px;
-	height: 150px;
-}
+	width: 100%;
+	height: auto;
+	padding-bottom: 83.27%;
+	}
 .schedule_info p {
     text-align: center;
 }
 .schedule_button ul {
     display: block;
     margin: 0 auto;
-    width: 280px;
+    width: 80%;
 }
 .schedule_button ul li {
     width: 100%;
@@ -394,9 +393,6 @@ span.sm_txt{
 }
 .member_intro::before{
     top: -50px;
-    left: 50%;
-    transform: translate(-50%,0);
-    width: 95%;
 }
 .combany_intro ul {
     display: flex;
@@ -420,13 +416,14 @@ span.sm_txt{
 	position: absolute;
 	content: "";
 	top: -50px;
-    left: 50%;
-    transform: translate(-50%,0);
-    width: 95%;
-	height: 561px;
+	left: 50%;
+	transform: translate(-50%,0);
 	background: url("images/member_introduce_bg.png")no-repeat top center;
 	background-size: 100% auto;
-	z-index: 1
+	z-index: 1;
+	padding-bottom: 62.22%;
+	width: 95%;
+	height: auto;
 }
 #tmp_questionare_link {
     width: 100%;

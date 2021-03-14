@@ -264,10 +264,10 @@ span.sm_img{
 }
 #tmp_target .wrap_target_block1{
 	background: url("images/target_h3_bg.png")no-repeat top center;
-	background-size: 100% auto;
-	max-width: 1200px;
+	background-size: 70% auto;
 	margin: -65px auto 0;
 	padding: 65px 0;
+	width: 100%;
 	height: auto;
 }
 #tmp_target .block_ttl h3 span{
@@ -633,14 +633,18 @@ span.method_img_box{
 	color: #DC6A86;	
 	font-weight: 900;
 }
-.schedule_info p:nth-child(2){
+/*.schedule_info p:nth-child(2){
+	font-size: 20pt;
+}*/
+.schedule_info p:nth-child(3){
 	font-size: 20pt;
 }
-.schedule_info p:nth-child(3){
-	font-size: 18pt;
-}
 .schedule_info p:nth-child(4){
-	font-size: 18pt;
+	font-size: 16pt;
+	color: #DC6A86;
+}
+.schedule_info p:nth-child(5){
+	font-size: 20pt;
 	color: #000;
 }
 .schedule_info{
@@ -693,15 +697,12 @@ span.method_img_box{
 	padding: 0 15px;
 }
 .schedule_button a{
-	background-color: #0090d5;
 	color: #fff;
 	padding: 10px 0;
 	text-align: center;
-	border-radius: 5px 5px 5px 5px;
 	display: block;
 	font-size: 16pt;
 	margin: 10px 0;
-	box-shadow: 0px 6px 0px 0px #0374aa;
 }
 .schedule_button_single a{
 	display: block;
@@ -748,11 +749,12 @@ span.method_img_box{
 	top: -100px;
 	left: 50%;
 	transform: translate(-50%,0);
-	width: 900px;
-	height: 561px;
 	background: url("images/member_introduce_bg.png")no-repeat top center;
 	background-size: 100% auto;
 	z-index: 1;
+	padding-bottom: 62.22%;
+	width: 100%;
+	height: auto;
 }
 .member_intro{
 	max-width: 965px;
@@ -797,15 +799,31 @@ span.method_img_box{
 .schedule_button{
 	max-width: 900px;
 	margin: 0 auto 35px;
+	
 }
 #tmp_questionare_link{
 	max-width: 600px;
 	height: auto;
 	margin: 0 auto 100px;
 }
+
 #tmp_questionare_link .schedule_button{
 	max-width: 480px;
 	height: auto;
+	background-color: #0090d5;
+	box-shadow: 0px 6px 0px 0px #0374aa;
+	border-radius: 5px 5px 5px 5px;
+}
+.schedule_button a{
+	background-color: #0090d5;
+	box-shadow: 0px 6px 0px 0px #0374aa;
+	border-radius: 5px 5px 5px 5px;
+}
+#tmp_questionare_link .schedule_button span{
+	display: inline-block;
+	background: url("images/anketo_label.png")no-repeat left center;
+	background-size: 6% auto;
+	padding-left: 37px;
 }
 .combany_intro span{
 	max-width: 650px;
